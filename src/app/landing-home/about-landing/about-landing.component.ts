@@ -11,9 +11,4 @@ import { NgClass } from '@angular/common';
 })
 export class AboutLandingComponent {
   articles = ABOUT_DATA;
-  showDescrip: number | null = null;
-
-  toggleDescription(index: number): void {
-    this.showDescrip = this.showDescrip === index ? null : index;
-  }
 }
