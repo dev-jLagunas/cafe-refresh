@@ -1,1 +1,65 @@
-<p>navbar works!</p>
+<nav class="font-comfortaa pt-5">
+  <img src="assets/pngs/logo-sm.png" alt="cafe logo" class="mx-auto h-10" />
+  <ul
+    class="flex justify-evenly font-extralight tracking-widest text-xs mt-2 xs:text-base"
+  >
+    <li
+      class="gradient-text dark:text-white hover:scale-125 duration-500 py-1 border-b border-b-transparent hover:border-b hover:border-b-slate-200"
+    >
+      <a href="">ABOUT</a>
+    </li>
+    <li
+      class="gradient-text hover:scale-125 duration-500 py-1 border-t border-t-transparent hover:border-t hover:border-t-slate-300"
+    >
+      <a href="">MENU</a>
+    </li>
+    <li
+      class="gradient-text hover:scale-125 duration-500 py-1 border-b border-b-transparent hover:border-b hover:border-b-slate-300"
+    >
+      <a href="">HOME</a>
+    </li>
+    <li
+      class="gradient-text hover:scale-125 duration-500 py-1 border-t border-t-transparent hover:border-t hover:border-t-slate-300"
+    >
+      <a href="">GALLERY</a>
+    </li>
+    <li
+      class="gradient-text hover:scale-125 duration-500 py-1 border-b border-b-transparent hover:border-b hover:border-b-slate-300"
+    >
+      <a href="">INFO</a>
+    </li>
+  </ul>
+
+  <div class="flex items-center justify-evenly px-14 my-4">
+    <button
+      class="flex text-slate-600 text-xs dark:text-slate-300"
+      (click)="onToggleDarkMode()"
+    >
+      Dark Mode
+    </button>
+    <ul
+      class="flex justify-end gap-4 text-xxs text-slate-600 dark:text-slate-300"
+    >
+      <li class="hover:text-slate-700 hover:scale-110 duration-100">
+        <a href="https://www.facebook.com/CafeTriangle1/">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+      </li>
+      <li class="hover:text-slate-700 hover:scale-110 duration-100">
+        <a href="https://www.instagram.com/cafetriangle1/?hl=en">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li class="hover:text-slate-700 hover:scale-110 duration-100">
+        <a href="mailto:cafetriangle1@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      <li class="hover:text-slate-700 hover:scale-110 duration-100">
+        <a href="tel:+81076-259-5626">
+          <i class="fas fa-phone"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
