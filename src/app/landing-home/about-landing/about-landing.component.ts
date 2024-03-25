@@ -1,12 +1,19 @@
 import { Component } from '@angular/core';
+import { ABOUT_DATA } from './ABOUT_DATA';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-about-landing',
   standalone: true,
-  imports: [],
+  imports: [NgClass],
   templateUrl: './about-landing.component.html',
-  styleUrl: './about-landing.component.scss'
+  styleUrl: './about-landing.component.scss',
 })
 export class AboutLandingComponent {
+  articles = ABOUT_DATA;
+  showDescrip: number | null = null;
 
+  toggleDescription(index: number): void {
+    this.showDescrip = this.showDescrip === index ? null : index;
+  }
 }
