@@ -3,6 +3,7 @@ import { HeroLandingComponent } from './hero-landing/hero-landing.component';
 import { AboutLandingComponent } from './about-landing/about-landing.component';
 import { MenuLandingComponent } from './menu-landing/menu-landing.component';
 import { GalleryLandingComponent } from './gallery-landing/gallery-landing.component';
+import { InfoLandingComponent } from './info-landing/info-landing.component';
 
 @Component({
   selector: 'app-landing-home',
@@ -12,6 +13,7 @@ import { GalleryLandingComponent } from './gallery-landing/gallery-landing.compo
     AboutLandingComponent,
     MenuLandingComponent,
     GalleryLandingComponent,
+    InfoLandingComponent,
   ],
   templateUrl: './landing-home.component.html',
   styleUrl: './landing-home.component.scss',
