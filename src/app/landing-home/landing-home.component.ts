@@ -4,6 +4,7 @@ import { AboutLandingComponent } from './about-landing/about-landing.component';
 import { MenuLandingComponent } from './menu-landing/menu-landing.component';
 import { GalleryLandingComponent } from './gallery-landing/gallery-landing.component';
 import { InfoLandingComponent } from './info-landing/info-landing.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-landing-home',
@@ -14,6 +15,7 @@ import { InfoLandingComponent } from './info-landing/info-landing.component';
     MenuLandingComponent,
     GalleryLandingComponent,
     InfoLandingComponent,
+    FooterComponent,
   ],
   templateUrl: './landing-home.component.html',
   styleUrl: './landing-home.component.scss',
