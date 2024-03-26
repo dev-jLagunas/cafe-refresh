@@ -15,24 +15,24 @@
       <img
         [src]="person.imageSrc"
         alt=""
-        class="h-full w-full object-cover border-4 rounded-md dark:border-opacity-60"
+        class="h-full w-full object-cover shadow-slate-500 dark:shadow-slate-800 shadow-sm-light rounded-md dark:border-opacity-60"
         [ngClass]="person.borderColor"
       />
       <figcaption
-        class="absolute -top-4 left-3 p-2 rounded-lg text-slate-100 text-xxs dark:bg-opacity-90"
+        class="absolute -top-4 left-3 p-2 rounded-lg text-slate-100 text-xxs dark:bg-opacity-95"
         [ngClass]="person.backgroundColor"
       >
         {{ person.caption }}
       </figcaption>
     </figure>
     <p
-      class="w-full pt-4 pb-1 border-4 mx-auto -mt-4 rounded-md dark:text-slate-100 dark:border-opacity-60 text-center"
+      class="w-full pt-4 pb-1 border-2 mx-auto -mt-4 rounded-md dark:text-slate-100 dark:border-opacity-60 text-center"
       [ngClass]="person.buttonColor"
     >
       {{ person.name }}
     </p>
     <div
-      class="px-2 text-xxs xl:text-base py-3 dark:text-slate-100 border-4 mt-2 rounded-md dark:border-opacity-60 h-32 xs:h-24 lg:h-28 xl:h-36 w-36 xs:w-48 sm:w-64 md:w-72 lg:w-full"
+      class="px-2 text-xxs xl:text-base py-3 dark:text-slate-100 border-2 mt-2 rounded-md dark:border-opacity-60 h-32 xs:h-24 lg:h-28 xl:h-36 w-36 xs:w-48 sm:w-64 md:w-72 lg:w-full"
       [ngClass]="person.borderColor"
     >
       <p>
@@ -44,7 +44,7 @@
   }
 </section>
 <article
-  class="flex justify-center items-center w-90vw mx-auto border-4 border-red-400 rounded-md p-2 mb-8 md:w-1/2 md:text-base text-center lg:w-1/3"
+  class="flex justify-center items-center w-90vw mx-auto border-2 border-red-400 rounded-md p-2 mb-8 md:w-1/2 md:text-base text-center lg:w-1/3"
 >
   <i class="fa-solid fa-circle-info text-red-500 md:text-4xl"></i>
   <p
