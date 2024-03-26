@@ -1,157 +1,17 @@
 <section class="h-max pb-10">
-  <header
-    class="border-y mb-6 relative py-5 border-y-slate-100 dark:border-y-slate-800 mt-16"
-  >
+  <header class="relative py-5 my-6">
     <h1
-      class="font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-100 dark:border-x-slate-800 tracking-widest"
+      class="font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-300 dark:border-x-slate-800 tracking-widest text-2xl"
     >
-      OUR MENU
+      Our Menu
     </h1>
   </header>
-  <div
-    id="indicators-carousel"
-    class="relative md:w-90vw md:mx-auto lg:w-3/4"
-    data-carousel="slide"
+  <section
+    class="md:w-90vw md:mx-auto md:grid md:grid-cols-2 lg:grid-cols-4 lg:gap-3 lg:w-3/4 xl:w-2/3"
   >
-    <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-      <!-- Item 1 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-        <img
-          src="assets/menu-landing/bluecheesecake.jpg"
-          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-          alt="..."
-        />
-      </div>
-      <!-- Item 2 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img
-          src="assets/menu-landing/carnitas.jpg"
-          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-          alt="..."
-        />
-      </div>
-      <!-- Item 3 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img
-          src="assets/menu-landing/burritobowl.jpg"
-          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-          alt="..."
-        />
-      </div>
-      <!-- Item 4 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img
-          src="assets/menu-landing/bundtcake.jpg"
-          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-          alt="..."
-        />
-      </div>
-      <!-- Item 5 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img
-          src="assets/menu-landing/chocorolls.jpg"
-          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-          alt="..."
-        />
-      </div>
-    </div>
-    <!-- Slider indicators -->
-    <div
-      class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2"
+    <article
+      class="grid grid-cols-5 w-90vw mx-auto mt-4 md:w-full lg:grid-cols-1"
     >
-      <button
-        type="button"
-        class="w-3 h-3 rounded-full"
-        aria-current="true"
-        aria-label="Slide 1"
-        data-carousel-slide-to="0"
-      ></button>
-      <button
-        type="button"
-        class="w-3 h-3 rounded-full"
-        aria-current="false"
-        aria-label="Slide 2"
-        data-carousel-slide-to="1"
-      ></button>
-      <button
-        type="button"
-        class="w-3 h-3 rounded-full"
-        aria-current="false"
-        aria-label="Slide 3"
-        data-carousel-slide-to="2"
-      ></button>
-      <button
-        type="button"
-        class="w-3 h-3 rounded-full"
-        aria-current="false"
-        aria-label="Slide 4"
-        data-carousel-slide-to="3"
-      ></button>
-      <button
-        type="button"
-        class="w-3 h-3 rounded-full"
-        aria-current="false"
-        aria-label="Slide 5"
-        data-carousel-slide-to="4"
-      ></button>
-    </div>
-    <!-- Slider controls -->
-    <button
-      type="button"
-      class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-      data-carousel-prev
-    >
-      <span
-        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
-      >
-        <svg
-          class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 6 10"
-        >
-          <path
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M5 1 1 5l4 4"
-          />
-        </svg>
-        <span class="sr-only">Previous</span>
-      </span>
-    </button>
-    <button
-      type="button"
-      class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-      data-carousel-next
-    >
-      <span
-        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
-      >
-        <svg
-          class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 6 10"
-        >
-          <path
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="m1 9 4-4-4-4"
-          />
-        </svg>
-        <span class="sr-only">Next</span>
-      </span>
-    </button>
-  </div>
-  <section class="md:w-90vw md:mx-auto md:grid md:grid-cols-2 lg:w-3/4">
-    <article class="grid grid-cols-5 w-90vw mx-auto mt-4 md:w-80 lg:w-full">
       <figure class="col-span-2">
         <img
           src="assets/menu-landing/bluecheesecake.jpg"
@@ -163,11 +23,11 @@
         class="col-span-3 font-comfortaa flex flex-col justify-center px-2 text-slate-800 dark:text-slate-100"
       >
         <p
-          class="text-xs font-bold tracking-widest mb-4 border-l-4 border-l-blue-400 pl-2"
+          class="text-xs font-bold tracking-widest mb-4 border-l-4 border-l-blue-400 pl-2 lg:text-lg lg:border-l-0 lg:border-b-4 lg:border-b-blue-400"
         >
           Desserts
         </p>
-        <p class="text-xxs mb-4">
+        <p class="text-xxs mb-4 2xl:text-base">
           We offer over 12 dessert options for your sweet tooth! Many of them
           only available here in all of the Horukiru area.
         </p>
@@ -178,21 +38,23 @@
         </button>
       </div>
     </article>
-    <article class="grid grid-cols-5 w-90vw mx-auto mt-4 md:w-80 lg:w-full">
+    <article
+      class="grid grid-cols-5 w-90vw mx-auto mt-4 md:w-full lg:grid-cols-1"
+    >
       <div
         class="col-span-3 font-comfortaa flex flex-col justify-center px-2 text-slate-800 dark:text-slate-100"
       >
         <p
-          class="text-xs font-bold tracking-widest mb-4 border-r-4 border-r-green-400 pr-2 text-right"
+          class="text-xs font-bold tracking-widest mb-4 border-r-4 border-r-green-400 pr-2 text-right lg:text-lg lg:border-r-0 lg:border-b-4 lg:border-b-green-400"
         >
           Food
         </p>
-        <p class="text-xxs mb-4 text-right">
+        <p class="text-xxs mb-4 text-right 2xl:text-base">
           Our speciality is Tex-Mex! We have 3 diferent burritos available.
           Chicken, Carnits, and Veggie. All three packed with flavor!
         </p>
         <button
-          class="border-2 border-green-400 w-full rounded-sm py-1 bg-green-400 text-slate-100 text-xs tracking-widest font-bold md:w-2/3 md:ml-auto"
+          class="border-2 border-green-400 w-full rounded-sm py-1 bg-green-400 text-slate-100 text-xs tracking-widest font-bold md:w-2/3 md:ml-auto lg:mb-2"
         >
           See Menu
         </button>
@@ -205,7 +67,9 @@
         />
       </figure>
     </article>
-    <article class="grid grid-cols-5 w-90vw mx-auto mt-4 md:w-80 lg:w-full">
+    <article
+      class="grid grid-cols-5 w-90vw mx-auto mt-4 md:w-full lg:grid-cols-1"
+    >
       <figure class="col-span-2">
         <img
           src="assets/menu-landing/drins.jpg"
@@ -214,14 +78,14 @@
         />
       </figure>
       <div
-        class="col-span-3 font-comfortaa flex flex-col justify-center px-2 text-slate-800 dark:text-slate-100"
+        class="col-span-3 font-comfortaa flex flex-col justify-center px-2 text-slate-800 dark:text-slate-100 xl:grid-column-2/2"
       >
         <p
-          class="text-xs font-bold tracking-widest mb-4 border-l-4 border-l-amber-400 pl-2"
+          class="text-xs font-bold tracking-widest mb-4 border-l-4 border-l-amber-400 pl-2 lg:text-lg lg:border-l-0 lg:border-b-4 lg:border-b-amber-400"
         >
           Drinks
         </p>
-        <p class="text-xxs mb-4">
+        <p class="text-xxs mb-4 2xl:text-base">
           We have all the tasty coffee based drinks you've come to know! Plus, a
           few extra special drinks for those who prefer something sweeter.
         </p>
@@ -232,21 +96,23 @@
         </button>
       </div>
     </article>
-    <article class="grid grid-cols-5 w-90vw mx-auto mt-4 md:w-80 lg:w-full">
+    <article
+      class="grid grid-cols-5 w-90vw mx-auto mt-4 md:w-full lg:grid-cols-1"
+    >
       <div
         class="col-span-3 font-comfortaa flex flex-col justify-center px-2 text-slate-800 dark:text-slate-100"
       >
         <p
-          class="text-xs font-bold tracking-widest mb-4 border-r-4 border-red-400 pr-2 text-right"
+          class="text-xs font-bold tracking-widest mb-4 border-r-4 border-red-400 pr-2 text-right lg:text-lg lg:border-r-0 lg:border-b-4 lg:border-b-red-400"
         >
           Special
         </p>
-        <p class="text-xxs mb-4 text-right">
+        <p class="text-xxs mb-4 text-right 2xl:text-base">
           Be on the lookout for special desserts, drinks, and food! We love
           offering creative items based on the season or special holidays!
         </p>
         <button
-          class="border-2 border-red-400 w-full rounded-sm py-1 bg-red-400 text-slate-100 text-xs tracking-widest font-bold md:w-2/3 md:ml-auto"
+          class="border-2 border-red-400 w-full rounded-sm py-1 bg-red-400 text-slate-100 text-xs tracking-widest font-bold md:w-2/3 md:ml-auto lg:mb-2"
         >
           See Menu
         </button>
@@ -260,9 +126,151 @@
       </figure>
     </article>
   </section>
-  <p
-    class="font-comfortaa text-xs text-center text-slate-800 dark:text-slate-100 my-10"
-  >
-    WE HAVE A CHAIR READY FOR YOU!
-  </p>
 </section>
+<div
+  id="indicators-carousel"
+  class="relative w-90vw mx-auto lg:w-3/4"
+  data-carousel="slide"
+>
+  <!-- Carousel wrapper -->
+  <div class="relative h-56 overflow-hidden rounded-lg md:h-60">
+    <!-- Item 1 -->
+    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+      <img
+        src="assets/menu-landing/bluecheesecake.jpg"
+        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+        alt="..."
+      />
+    </div>
+    <!-- Item 2 -->
+    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+      <img
+        src="assets/menu-landing/carnitas.jpg"
+        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+        alt="..."
+      />
+    </div>
+    <!-- Item 3 -->
+    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+      <img
+        src="assets/menu-landing/burritobowl.jpg"
+        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+        alt="..."
+      />
+    </div>
+    <!-- Item 4 -->
+    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+      <img
+        src="assets/menu-landing/bundtcake.jpg"
+        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+        alt="..."
+      />
+    </div>
+    <!-- Item 5 -->
+    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+      <img
+        src="assets/menu-landing/chocorolls.jpg"
+        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+        alt="..."
+      />
+    </div>
+  </div>
+  <!-- Slider indicators -->
+  <div
+    class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2"
+  >
+    <button
+      type="button"
+      class="w-3 h-3 rounded-full"
+      aria-current="true"
+      aria-label="Slide 1"
+      data-carousel-slide-to="0"
+    ></button>
+    <button
+      type="button"
+      class="w-3 h-3 rounded-full"
+      aria-current="false"
+      aria-label="Slide 2"
+      data-carousel-slide-to="1"
+    ></button>
+    <button
+      type="button"
+      class="w-3 h-3 rounded-full"
+      aria-current="false"
+      aria-label="Slide 3"
+      data-carousel-slide-to="2"
+    ></button>
+    <button
+      type="button"
+      class="w-3 h-3 rounded-full"
+      aria-current="false"
+      aria-label="Slide 4"
+      data-carousel-slide-to="3"
+    ></button>
+    <button
+      type="button"
+      class="w-3 h-3 rounded-full"
+      aria-current="false"
+      aria-label="Slide 5"
+      data-carousel-slide-to="4"
+    ></button>
+  </div>
+  <!-- Slider controls -->
+  <button
+    type="button"
+    class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+    data-carousel-prev
+  >
+    <span
+      class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+    >
+      <svg
+        class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 6 10"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 1 1 5l4 4"
+        />
+      </svg>
+      <span class="sr-only">Previous</span>
+    </span>
+  </button>
+  <button
+    type="button"
+    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+    data-carousel-next
+  >
+    <span
+      class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+    >
+      <svg
+        class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 6 10"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="m1 9 4-4-4-4"
+        />
+      </svg>
+      <span class="sr-only">Next</span>
+    </span>
+  </button>
+</div>
+<p
+  class="font-comfortaa text-xs text-center text-slate-800 dark:text-slate-100 my-10"
+>
+  WE HAVE A CHAIR READY FOR YOU!
+</p>
