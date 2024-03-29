@@ -2,7 +2,9 @@
   <section>
     <app-navbar (toggleDarkMode)="toggleDarkMode()"></app-navbar>
   </section>
+  @defer {
   <section>
     <router-outlet></router-outlet>
   </section>
+  }
 </div>
