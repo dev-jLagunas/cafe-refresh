@@ -1,1 +1,25 @@
-<p>menu-item works!</p>
+<article class="w-90vw mx-auto h-screen mt-8">
+  <div
+    class="relative polaroid md:h-2/3 md:w-2/3 md:mx-auto hover:cursor-pointer"
+    (click)="goBack()"
+  >
+    <img
+      src="{{ menuProduct?.img }}"
+      alt=""
+      class="h-full w-full object-cover"
+    />
+    <div
+      class="absolute -bottom-8 left-0 right-0 p-4 text-center tracking-widest text-slate-800 dark:text-slate-100"
+    >
+      <h3 class="font-comfortaa">
+        {{ menuProduct?.title }}
+      </h3>
+
+      <h4
+        class="text-base bg-orange-400 text-white w-max px-4 py-1 mx-auto rounded-md mt-4"
+      >
+        {{ menuProduct?.price }}
+      </h4>
+    </div>
+  </div>
+</article>
