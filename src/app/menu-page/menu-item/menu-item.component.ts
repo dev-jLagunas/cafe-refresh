@@ -2,11 +2,11 @@ import { Component, inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MenuService } from '../../services/menu.service';
 import { MenuProducts } from '../../models/menu-product.model';
-
+import { FooterComponent } from '../../footer/footer.component';
 @Component({
   selector: 'app-menu-item',
   standalone: true,
-  imports: [],
+  imports: [FooterComponent],
   templateUrl: './menu-item.component.html',
   styleUrl: './menu-item.component.scss',
 })

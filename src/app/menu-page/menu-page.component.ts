@@ -2,10 +2,12 @@ import { Component } from '@angular/core';
 import { MenuProducts } from '../models/menu-product.model';
 import { MenuService } from '../services/menu.service';
 import { RouterLink } from '@angular/router';
+import { FooterComponent } from '../footer/footer.component';
+
 @Component({
   selector: 'app-menu-page',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink, FooterComponent],
   templateUrl: './menu-page.component.html',
   styleUrl: './menu-page.component.scss',
 })
