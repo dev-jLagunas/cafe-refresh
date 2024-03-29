@@ -5,7 +5,6 @@
     About Us
   </h1>
 </header>
-
 <section
   class="font-comfortaa text-slate-800 grid grid-cols-2 md:grid md:grid-cols-2 md:w-3/4 md:mx-auto md:gap-5 lg:grid-cols-4 h-max lg:w-3/4"
 >
@@ -14,7 +13,7 @@
     <figure class="relative w-32 mx-auto lg:w-40">
       <img
         [src]="person.imageSrc"
-        alt=""
+        alt="{{ person.caption }}"
         class="h-full w-full object-cover shadow-slate-500 dark:shadow-slate-800 shadow-sm-light rounded-md dark:border-opacity-60"
         [ngClass]="person.borderColor"
       />
@@ -54,9 +53,12 @@
     Mexican, and American cultures!
   </p>
   <div>
-    <img src="assets/pngs/japan.png" alt="" />
-    <img src="assets/pngs/mexico.png" alt="" />
-    <img src="assets/pngs/united-states.png" alt="" />
+    <img src="assets/pngs/japan.png" alt="Japan flag" />
+    <img src="assets/pngs/mexico.png" alt="Mexico flag" />
+    <img
+      src="assets/pngs/united-states.png"
+      alt="United States of America flag"
+    />
   </div>
 </article>
 <p
