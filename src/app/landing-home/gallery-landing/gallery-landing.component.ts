@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-
+import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-gallery-landing',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './gallery-landing.component.html',
-  styleUrl: './gallery-landing.component.scss'
+  styleUrl: './gallery-landing.component.scss',
 })
-export class GalleryLandingComponent {
-
-}
+export class GalleryLandingComponent {}
