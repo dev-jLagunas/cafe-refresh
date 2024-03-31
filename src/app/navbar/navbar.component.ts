@@ -1,5 +1,5 @@
 import { Component, Output, EventEmitter } from '@angular/core';
-import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-navbar',
@@ -10,16 +10,15 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 })
 export class NavbarComponent {
   @Output() toggleDarkMode = new EventEmitter<void>();
+  @Output() languageChange = new EventEmitter<string>();
 
-  constructor(private translate: TranslateService) {
-    translate.setDefaultLang('en');
-  }
+  constructor() {}
 
   onToggleDarkMode(): void {
     this.toggleDarkMode.emit();
   }
 
-  switchLanguage(language: string) {
-    this.translate.use(language);
+  changeLanguage(language: string) {
+    this.languageChange.emit(language);
   }
 }

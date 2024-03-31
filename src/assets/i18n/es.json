@@ -4,6 +4,11 @@
     "ABOUT": "Acerca de",
     "MENU": "Menú",
     "GALLERY": "Galería",
-    "INFO": "Información"
+    "INFO": "Información",
+    "DARKMODE": "Modo Oscuro"
+  },
+  "hero": {
+    "CAFE_NAME": "Cafe Triangle",
+    "CAFE_SLOGAN": "Compartiendo nuestra cultura, un postre a la vez."
   }
 }

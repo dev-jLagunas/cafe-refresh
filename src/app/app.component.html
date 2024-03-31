@@ -1,10 +1,14 @@
 <div class="dark:bg-bg-dark h-full">
   <section>
-    <app-navbar (toggleDarkMode)="toggleDarkMode()"></app-navbar>
+    <app-navbar
+      (languageChange)="changeLanguage($event)"
+      (toggleDarkMode)="toggleDarkMode()"
+    ></app-navbar>
   </section>
   @defer {
   <section>
     <router-outlet></router-outlet>
   </section>
   }
+  <app-footer></app-footer>
 </div>

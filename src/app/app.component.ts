@@ -3,6 +3,7 @@ import { DOCUMENT } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -13,9 +14,16 @@ import { FooterComponent } from './footer/footer.component';
 })
 export class AppComponent {
   constructor(
+    private translate: TranslateService,
     private renderer: Renderer2,
     @Inject(DOCUMENT) private document: Document
-  ) {}
+  ) {
+    translate.addLangs(['en', 'es', 'jp']);
+    translate.setDefaultLang('en');
+
+    const browserLang = translate.getBrowserLang() || 'en';
+    translate.use(browserLang.match(/en|es|jp/) ? browserLang : 'en');
+  }
 
   toggleDarkMode() {
     const body = this.document.body;
@@ -26,5 +34,9 @@ export class AppComponent {
     } else {
       this.renderer.addClass(body, 'dark');
     }
+  }
+
+  changeLanguage(language: string) {
+    this.translate.use(language);
   }
 }

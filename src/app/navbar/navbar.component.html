@@ -26,9 +26,8 @@
     <button
       class="flex text-slate-600 text-xs hover:scale-125 duration-500"
       (click)="onToggleDarkMode()"
-    >
-      Dark Mode
-    </button>
+      translate="navbar.DARKMODE"
+    ></button>
     <ul class="flex justify-end gap-4 text-xs text-slate-600">
       <li class="hover:text-slate-700 hover:scale-110 duration-100">
         <a href="https://www.facebook.com/CafeTriangle1/" aria-label="Facebook">
@@ -60,21 +59,21 @@
       <button
         type="button"
         class="px-2 py-1 hover:scale-110"
-        (click)="switchLanguage('en')"
+        (click)="changeLanguage('en')"
       >
         EN
       </button>
       <button
         type="button"
         class="px-2 py-1 hover:scale-110"
-        (click)="switchLanguage('jp')"
+        (click)="changeLanguage('jp')"
       >
         JP
       </button>
       <button
         type="button"
         class="px-2 py-1 hover:scale-110"
-        (click)="switchLanguage('es')"
+        (click)="changeLanguage('es')"
       >
         ES
       </button>

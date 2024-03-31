@@ -4,6 +4,11 @@
     "ABOUT": "紹介",
     "MENU": "メニュー",
     "GALLERY": "ギャラリー",
-    "INFO": "情報"
+    "INFO": "情報",
+    "DARKMODE": "ダークモード"
+  },
+  "hero": {
+    "CAFE_NAME": "カフェ トライアングル",
+    "CAFE_SLOGAN": "文化を共有し、一つのデザートずつ。"
   }
 }
