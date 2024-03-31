@@ -16,6 +16,7 @@ export class AppComponent {
     private renderer: Renderer2,
     @Inject(DOCUMENT) private document: Document
   ) {}
+
   toggleDarkMode() {
     const body = this.document.body;
     const hasDarkClass = body.classList.contains('dark');

@@ -6,19 +6,19 @@
   />
   <ul class="flex justify-evenly font-extralight text-xs mt-2 lg:text-base">
     <li class="gradient-text hover:scale-125 duration-500 py-1">
-      <a href="#about">ABOUT</a>
+      <a href="#about" translate="navbar.ABOUT"></a>
     </li>
     <li class="gradient-text hover:scale-125 duration-500 py-1">
-      <a href="#menu">MENU</a>
+      <a href="#menu" translate="navbar.MENU"></a>
     </li>
     <li class="gradient-text hover:scale-125 duration-500 py-1">
-      <a href="#home">HOME</a>
+      <a href="#home" translate="navbar.HOME"></a>
     </li>
     <li class="gradient-text hover:scale-125 duration-500 py-1">
-      <a href="#gallery">GALLERY</a>
+      <a href="#gallery" translate="navbar.GALLERY"></a>
     </li>
     <li class="gradient-text hover:scale-125 duration-500 py-1">
-      <a href="#info">INFO</a>
+      <a href="#info" translate="navbar.INFO"></a>
     </li>
   </ul>
 
@@ -54,5 +54,30 @@
         </a>
       </li>
     </ul>
+    <div
+      class="flex divide-x divide-slate-200 font-comfortaa text-xxs text-slate-800 dark:text-slate-600 dark:divide-slate-600"
+    >
+      <button
+        type="button"
+        class="px-2 py-1 hover:scale-110"
+        (click)="switchLanguage('en')"
+      >
+        EN
+      </button>
+      <button
+        type="button"
+        class="px-2 py-1 hover:scale-110"
+        (click)="switchLanguage('jp')"
+      >
+        JP
+      </button>
+      <button
+        type="button"
+        class="px-2 py-1 hover:scale-110"
+        (click)="switchLanguage('es')"
+      >
+        ES
+      </button>
+    </div>
   </div>
 </nav>
