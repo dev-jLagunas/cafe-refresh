@@ -36,5 +36,13 @@
     "FOOD_INFO": "¡Nuestra especialidad es Tex-Mex! Tenemos 3 diferentes burritos disponibles. ¡Pollo, Carnitas y Veggie. Los tres están llenos de sabor!",
     "DRINKS_INFO": "¡Tenemos todas las deliciosas bebidas a base de café que conoces! Además, algunas bebidas extra especiales para aquellos que prefieren algo más dulce.",
     "SPECIALS_INFO": "¡Estate atento a los postres, bebidas y comida especiales! ¡Nos encanta ofrecer artículos creativos basados en la temporada o en días festivos especiales!"
+  },
+  "gallery-landing": {
+    "GALLERY_TITLE": "Nuestra Galería",
+    "WONDERFUL_MOMENT": "Un Momento Maravilloso",
+    "WONDERFUL_DESCRIPTION": "¡Siempre es un momento alegre cuando nuestros clientes traen a sus adorables mascotas para vernos! ¡Gracias!",
+    "LIFE_IN_COLOR": "¡Los pequeños momentos de la vida en color!",
+    "LIFE_IN_COLOR_DESCRIPTION": "La vida se trata de hacer maravillosos recuerdos con tu familia, tus amigos, tus mascotas o contigo mismo. ¡Sal y cómete una galleta!",
+    "SEE_MORE_BTN": "Ver Más"
   }
 }

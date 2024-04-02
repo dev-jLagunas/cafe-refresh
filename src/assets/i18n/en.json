@@ -35,6 +35,14 @@
     "DESSERTS_INFO": "We offer over 12 dessert options for your sweet tooth! Many of them only available here in all of the Horukiru area.",
     "FOOD_INFO": "Our speciality is Tex-Mex! We have 3 diferent burritos available. Chicken, Carnits, and Veggie. All three packed with flavor!",
     "DRINKS_INFO": "We have all the tasty coffee based drinks you've come to know! Plus, a few extra special drinks for those who prefer something sweeter.",
-    "SPECIALS-INFO": "Be on the lookout for special desserts, drinks, and food! We love offering creative items based on the season or special holidays!"
+    "SPECIALS_INFO": "Be on the lookout for special desserts, drinks, and food! We love offering creative items based on the season or special holidays!"
+  },
+  "gallery-landing": {
+    "GALLERY_TITLE": "Our Gallery",
+    "WONDERFUL_MOMENT": "A Wonderful Moment",
+    "WONDERFUL_DESCRIPTION": "It's always a joyous time when our customers bring their lovely pets together to see us! Thank you!",
+    "LIFE_IN_COLOR": "The little moments of life in color!",
+    "LIFE_IN_COLOR_DESCRIPTION": "Life is about making wondeful memories with your family, your friends, your pets, or yourself. Go out and have a cookie!",
+    "SEE_MORE_BTN": "See More"
   }
 }

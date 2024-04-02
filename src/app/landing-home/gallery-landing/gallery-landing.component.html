@@ -5,7 +5,9 @@
     <h1
       class="font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-300 dark:border-x-slate-600 tracking-widest text-2xl"
     >
-      <a routerLink="gallery">Our Gallery</a>
+      <a routerLink="gallery">
+        {{ "gallery-landing.GALLERY_TITLE" | translate }}
+      </a>
     </h1>
   </header>
   <div class="w-90vw mx-auto md:w-2/3 lg:w-3/6 xl:w-1/3 2xl:w-1/4">
@@ -17,11 +19,10 @@
     <h2
       class="poppins-font text-center border-b-2 border-orange-400 my-4 tracking-widest md:w-1/2 md:mx-auto"
     >
-      A Wonderful Moment
+      {{ "gallery-landing.WONDERFUL_MOMENT" | translate }}
     </h2>
     <p class="poppins-font text-center text-sm mb-4">
-      It's always a joyous time when our customers bring their lovely pets
-      together to see us! Thank you!
+      {{ "gallery-landing.WONDERFUL_DESCRIPTION" | translate }}
     </p>
   </div>
   <figure
@@ -61,16 +62,15 @@
   <h2
     class="w-90vw mx-auto border-b-2 border-indigo-400 tracking-widest text-center my-4 md:w-1/2 md:mx-auto"
   >
-    The little moments of life in color!
+    {{ "gallery-landing.LIFE_IN_COLOR" | translate }}
   </h2>
   <p class="poppins-font text-center text-sm mb-4">
-    Life is about making wondeful memories with your family, your friends, your
-    pets, or yourself. Go out and have a cookie!
+    {{ "gallery-landing.LIFE_IN_COLOR_DESCRIPTION" | translate }}
   </p>
   <button
     class="poppins-font border-2 border-orange-400 w-max mx-auto text-slate-800 mt-2 px-4 py-2 rounded-md text-sm transform hover:scale-110 dark:text-slate-100"
     routerLink="gallery"
   >
-    See More
+    {{ "gallery-landing.SEE_MORE_BTN" | translate }}
   </button>
 </section>
