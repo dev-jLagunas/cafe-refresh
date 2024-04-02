@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     extend: {
       display: ["group-hover"],
+
       width: {
         "90vw": "90vw",
       },
