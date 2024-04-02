@@ -44,5 +44,21 @@
     "LIFE_IN_COLOR": "¡Los pequeños momentos de la vida en color!",
     "LIFE_IN_COLOR_DESCRIPTION": "La vida se trata de hacer maravillosos recuerdos con tu familia, tus amigos, tus mascotas o contigo mismo. ¡Sal y cómete una galleta!",
     "SEE_MORE_BTN": "Ver Más"
+  },
+  "info-landing": {
+    "INFO_TITLE": "Nuestra Información",
+    "ADDRESS": "Dirección",
+    "HOURS": "Horario",
+    "PHONE": "Teléfono",
+    "LUNCH": "Almuerzo",
+    "PETS": "Mascotas",
+    "EXTRAS": "Extras",
+    "VEGAN": "Vegano",
+    "ADDRESS_INFO": "Casa Araki / 2-8-5 / Masuizumi / Kanazawa / Ishikawa / 921-8025",
+    "HOURS_INFO": "Miércoles - Domingo / 9am - 5pm",
+    "LUNCH_INFO": "Comida Disponible / 11am - 4pm",
+    "PETS_INFO": "Aceptamos Mascotas",
+    "EXTRAS_INFO": "Wifi Gratis / 4 Plazas de Aparcamiento",
+    "VEGAN_INFO": "Leche de Soja / Pasteles Veganos Disponibles"
   }
 }

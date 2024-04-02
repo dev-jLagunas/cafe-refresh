@@ -3,7 +3,7 @@
     <h1
       class="font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-300 dark:border-x-slate-600 tracking-widest text-2xl"
     >
-      Our Info
+      {{ "info-landing.INFO_TITLE" | translate }}
     </h1>
   </header>
   <section
@@ -11,40 +11,54 @@
   >
     <div class="col-span-2 md:col-span-3">
       <i class="fa-solid fa-map-pin text-lg animate-bounce text-red-500"></i>
-      <h5 class="font-bold tracking-widest xl:text-base">Address</h5>
+      <h5 class="font-bold tracking-widest xl:text-base">
+        {{ "info-landing.ADDRESS" | translate }}
+      </h5>
       <p class="xl:text-xs">
-        Araki House / 2-8-5 / Masuizumi / Kanazawa / Ishikawa / 921-8025
+        {{ "info-landing.ADDRESS_INFO" | translate }}
       </p>
     </div>
     <div class="">
       <i class="fa-solid fa-clock text-lg"></i>
-      <h5 class="font-bold tracking-widest text-xs xl:text-base">Hours</h5>
-      <p class="xl:text-xs">Wednesday - Sunday / 9am - 5pm</p>
+      <h5 class="font-bold tracking-widest text-xs xl:text-base">
+        {{ "info-landing.HOURS" | translate }}
+      </h5>
+      <p class="xl:text-xs">{{ "info-landing.HOURS_INFO" | translate }}</p>
     </div>
     <div>
       <i class="fa-solid fa-phone text-lg animate-bounce text-blue-500"></i>
-      <h5 class="font-bold tracking-widest text-xs xl:text-base">Phone</h5>
+      <h5 class="font-bold tracking-widest text-xs xl:text-base">
+        {{ "info-landing.PHONE" | translate }}
+      </h5>
       <p class="xl:text-xs">076-259-5626</p>
     </div>
     <div>
       <i class="fa-solid fa-utensils text-lg"></i>
-      <h5 class="font-bold tracking-widest text-xs xl:text-base">Lunch</h5>
-      <p class="xl:text-xs">Food Available / 11am - 4pm</p>
+      <h5 class="font-bold tracking-widest text-xs xl:text-base">
+        {{ "info-landing.LUNCH" | translate }}
+      </h5>
+      <p class="xl:text-xs">{{ "info-landing.LUNCH_INFO" | translate }}</p>
     </div>
     <div>
       <i class="fa-solid fa-paw text-lg"></i>
-      <h5 class="font-bold tracking-widest text-xs xl:text-base">Pets</h5>
-      <p class="xl:text-xs">We Are Pet Friendly</p>
+      <h5 class="font-bold tracking-widest text-xs xl:text-base">
+        {{ "info-landing.PETS" | translate }}
+      </h5>
+      <p class="xl:text-xs">{{ "info-landing.PETS_INFO" | translate }}</p>
     </div>
     <div>
       <i class="fa-solid fa-wifi text-lg"></i>
-      <h5 class="font-bold tracking-widest text-xs xl:text-base">Extras</h5>
-      <p class="xl:text-xs">Free Wifi / 4 Parking Spots</p>
+      <h5 class="font-bold tracking-widest text-xs xl:text-base">
+        {{ "info-landing.EXTRAS" | translate }}
+      </h5>
+      <p class="xl:text-xs">{{ "info-landing.EXTRAS_INFO" | translate }}</p>
     </div>
     <div>
       <i class="fa-solid fa-seedling text-lg"></i>
-      <h5 class="font-bold tracking-widest text-xs xl:text-base">Vegan</h5>
-      <p class="xl:text-xs">Soy Milk / Vegan Pastries Available</p>
+      <h5 class="font-bold tracking-widest text-xs xl:text-base">
+        {{ "info-landing.VEGAN" | translate }}
+      </h5>
+      <p class="xl:text-xs">{{ "info-landing.VEGAN_INFO" | translate }}</p>
     </div>
   </section>
   <div

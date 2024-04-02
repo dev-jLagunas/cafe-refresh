@@ -44,5 +44,21 @@
     "LIFE_IN_COLOR": "人生の小さな瞬間、色彩で彩りました！",
     "LIFE_IN_COLOR_DESCRIPTION": "人生は、家族や友人、ペット、または自分自身と素晴らしい思い出を作ることです。外に出て、クッキーを食べましょう！",
     "SEE_MORE_BTN": "詳細を見る"
+  },
+  "info-landing": {
+    "INFO_TITLE": "当店の情報",
+    "ADDRESS": "住所",
+    "HOURS": "営業時間",
+    "PHONE": "電話",
+    "LUNCH": "ランチ",
+    "PETS": "ペット",
+    "EXTRAS": "その他",
+    "VEGAN": "ビーガン",
+    "ADDRESS_INFO": "アラキハウス / 2-8-5 / 舛泉 / 金沢市 / 石川県 / 921-8025",
+    "HOURS_INFO": "水曜日 - 日曜日 / 9am - 5pm",
+    "LUNCH_INFO": "食事提供 / 11am - 4pm",
+    "PETS_INFO": "ペット同伴可能",
+    "EXTRAS_INFO": "無料Wifi / 駐車場4台",
+    "VEGAN_INFO": "豆乳 / ビーガンペストリーあり"
   }
 }

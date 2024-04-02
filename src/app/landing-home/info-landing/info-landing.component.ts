@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-info-landing',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './info-landing.component.html',
-  styleUrl: './info-landing.component.scss'
+  styleUrl: './info-landing.component.scss',
 })
-export class InfoLandingComponent {
-
-}
+export class InfoLandingComponent {}

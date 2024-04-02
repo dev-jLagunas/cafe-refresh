@@ -44,5 +44,21 @@
     "LIFE_IN_COLOR": "The little moments of life in color!",
     "LIFE_IN_COLOR_DESCRIPTION": "Life is about making wondeful memories with your family, your friends, your pets, or yourself. Go out and have a cookie!",
     "SEE_MORE_BTN": "See More"
+  },
+  "info-landing": {
+    "INFO_TITLE": "Our Info",
+    "ADDRESS": "Address",
+    "HOURS": "Hours",
+    "PHONE": "Phone",
+    "LUNCH": "Lunch",
+    "PETS": "Pets",
+    "EXTRAS": "Extras",
+    "VEGAN": "Vegan",
+    "ADDRESS_INFO": "Araki House / 2-8-5 / Masuizumi / Kanazawa / Ishikawa / 921-8025",
+    "HOURS_INFO": "Wednesday - Sunday / 9am - 5pm",
+    "LUNCH_INFO": "Food Available / 11am - 4pm",
+    "PETS_INFO": "We Are Pet Friendly",
+    "EXTRAS_INFO": "Free Wifi / 4 Parking Spots",
+    "VEGAN_INFO": "Soy Milk / Vegan Pastries Available"
   }
 }
