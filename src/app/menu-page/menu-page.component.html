@@ -4,7 +4,7 @@
     <h1
       class="font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-300 dark:border-x-slate-800 tracking-widest text-2xl hover:cursor-pointer"
     >
-      Our Menu
+      {{ "menu-page.MENU_PAGE_TITLE" | translate }}
     </h1>
   </header>
   <div
@@ -15,28 +15,28 @@
       (click)="filterItems('all')"
       class="hover:scale-125 duration-500"
     >
-      All
+      {{ "menu-page.ALL" | translate }}
     </button>
     <button
       type="button"
       (click)="filterItems('Lunch')"
       class="hover:scale-125 duration-500"
     >
-      Lunch
+      {{ "menu-page.LUNCH" | translate }}
     </button>
     <button
       type="button"
       (click)="filterItems('Dessert')"
       class="hover:scale-125 duration-500"
     >
-      Dessert
+      {{ "menu-page.DESSERT" | translate }}
     </button>
     <button
       type="button"
       (click)="filterItems('Drinks')"
       class="hover:scale-125 duration-500"
     >
-      Drinks
+      {{ "menu-page.DRINKS" | translate }}
     </button>
   </div>
   <div
@@ -62,12 +62,12 @@
         <h3
           class="text-xs tracking-widest py-2 border-dotted border-b w-2/3 pl-2 border-b-slate-300"
         >
-          {{ item.title }}
+          {{ item.title | translate }}
         </h3>
         <p
           class="text-xxs border-b dotted py-2 px-1 border-b-slate-300 lg:text-xs lg:leading-relaxed"
         >
-          {{ item.description }}
+          {{ item.description | translate }}
         </p>
       </div>
     </article>
@@ -81,6 +81,5 @@
       Home
     </button>
   </div>
-  <app-footer></app-footer>
 </section>
 }

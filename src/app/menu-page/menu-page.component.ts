@@ -3,11 +3,12 @@ import { MenuProducts } from '../models/menu-product.model';
 import { MenuService } from '../services/menu.service';
 import { RouterLink } from '@angular/router';
 import { FooterComponent } from '../footer/footer.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-menu-page',
   standalone: true,
-  imports: [RouterLink, FooterComponent],
+  imports: [RouterLink, FooterComponent, TranslateModule],
   templateUrl: './menu-page.component.html',
   styleUrl: './menu-page.component.scss',
 })
