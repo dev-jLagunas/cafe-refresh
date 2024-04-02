@@ -9,7 +9,8 @@
   },
   "hero": {
     "CAFE_NAME": "Cafe Triangle",
-    "CAFE_SLOGAN": "Sharing our culture, one dessert at a time"
+    "CAFE_SLOGAN": "Sharing our culture, one dessert at a time",
+    "HERO_TAGLINE": "COME LIVE LIFE WITH US HERE"
   },
   "about": {
     "ABOUT_TITLE": "About Us",

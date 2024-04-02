@@ -9,7 +9,8 @@
   },
   "hero": {
     "CAFE_NAME": "Cafe Triangle",
-    "CAFE_SLOGAN": "Compartiendo nuestra cultura, un postre a la vez."
+    "CAFE_SLOGAN": "Compartiendo nuestra cultura, un postre a la vez.",
+    "HERO_TAGLINE": "VEN A VIVIR LA VIDA CON NOSOTROS AQUÍ"
   },
   "about": {
     "ABOUT_TITLE": "Acerca De Nosotros",

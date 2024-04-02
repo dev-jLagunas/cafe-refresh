@@ -9,7 +9,8 @@
   },
   "hero": {
     "CAFE_NAME": "カフェ トライアングル",
-    "CAFE_SLOGAN": "文化を共有し、一つのデザートずつ。"
+    "CAFE_SLOGAN": "文化を共有し、一つのデザートずつ。",
+    "HERO_TAGLINE": "ここで一緒に人生を楽しみましょう"
   },
   "about": {
     "ABOUT_TITLE": "私たちについて",
