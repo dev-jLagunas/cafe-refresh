@@ -10,5 +10,18 @@
   "hero": {
     "CAFE_NAME": "Cafe Triangle",
     "CAFE_SLOGAN": "Sharing our culture, one dessert at a time"
+  },
+  "about": {
+    "ABOUT_TITLE": "About Us",
+    "SPECIALIZATION": "We specialize in popular pastries, foods, and drinks from our Japanese, Mexican, and American cultures!",
+    "ABOUT_TAGLINE": "LET'S GET TO KNOW EACH OTHER BETTER",
+    "PERSON_JOB_TITLE_OWNER": "Owner/Baker",
+    "PERSON_JOB_TITLE_MANAGER": "Manager/Cook",
+    "PERSON_JOB_TITLE_CAT": "King/Cat",
+    "PERSON_JOB_TITLE_FAMILY": "Family Pic",
+    "MOE_DESCRIPTION": "Moe has been baking for over 10 years. She truly enjoys the process of creating delicious treats from scratch!",
+    "JUAN_DESCRIPTION": "Juan likes trying new recipes and learning all the new skills that come with a cafe. He enjoys Mexican food.",
+    "MOKO_DESCRIPTION": "Moko is our lovely son. He is a spoiled boy but he is very kind and adventurous. He loves chicken.",
+    "FAMILY_DESCRIPTION": "Our small family wants to say thank you for visiting our site and welcomes you to visit our cafe."
   }
 }

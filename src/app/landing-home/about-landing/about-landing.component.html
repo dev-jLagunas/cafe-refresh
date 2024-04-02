@@ -1,9 +1,8 @@
 <header class="relative py-2 my-16">
   <h1
     class="font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-300 dark:border-x-slate-600 tracking-widest text-2xl"
-  >
-    About Us
-  </h1>
+    translate="about.ABOUT_TITLE"
+  ></h1>
 </header>
 <section
   class="font-comfortaa text-slate-800 grid grid-cols-2 md:grid md:grid-cols-2 md:w-3/4 md:mx-auto md:gap-5 lg:grid-cols-4 h-max lg:w-3/4"
@@ -13,7 +12,7 @@
     <figure class="relative w-32 mx-auto lg:w-40">
       <img
         [src]="person.imageSrc"
-        alt="{{ person.caption }}"
+        alt="{{ person.jobTitle }}"
         class="h-full w-full object-cover shadow-slate-500 dark:shadow-slate-800 shadow-sm-light rounded-md dark:border-opacity-60"
         [ngClass]="person.borderColor"
       />
@@ -21,7 +20,7 @@
         class="absolute -top-5 left-4 p-2 rounded-lg text-slate-100 text-xxs dark:bg-opacity-95"
         [ngClass]="person.backgroundColor"
       >
-        {{ person.caption }}
+        {{ person.jobTitle | translate }}
       </figcaption>
     </figure>
     <p
@@ -34,10 +33,7 @@
       class="px-2 text-xxs xl:text-base py-3 dark:text-slate-100 border-2 mt-2 rounded-md dark:border-opacity-60 h-32 xs:h-24 lg:h-28 xl:h-36 w-36 xs:w-48 sm:w-64 md:w-72 lg:w-full"
       [ngClass]="person.borderColor"
     >
-      <p>
-        <span>{{ person.name.charAt(0) }}</span
-        >{{ person.description }}
-      </p>
+      <p>{{ person.description | translate }}</p>
     </div>
   </article>
   }
@@ -48,10 +44,8 @@
   <i class="fa-solid fa-circle-info text-red-500 md:text-4xl"></i>
   <p
     class="text-xxs font-comfortaa px-2 text-slate-800 dark:text-slate-100 xl:text-base"
-  >
-    We specialize in popular pastries, foods, and drinks from our Japanese,
-    Mexican, and American cultures!
-  </p>
+    translate="about.SPECIALIZATION"
+  ></p>
   <div>
     <img src="assets/pngs/japan.png" alt="Japan flag" />
     <img src="assets/pngs/mexico.png" alt="Mexico flag" />
@@ -63,6 +57,5 @@
 </article>
 <p
   class="font-comfortaa text-xs text-center text-slate-800 dark:text-slate-100 mb-10"
->
-  LET'S GET TO KNOW EACH OTHER BETTER
-</p>
+  translate="about.ABOUT_TAGLINE"
+></p>

@@ -1,10 +1,9 @@
 export const ABOUT_DATA = [
   {
     imageSrc: 'assets/story-imgs/moe-anko.jpg',
-    caption: 'Owner/Baker',
+    jobTitle: 'about.PERSON_JOB_TITLE_OWNER',
     name: 'Moe',
-    description:
-      'oe has been baking for over 10 years. She truly enjoys the process of creating delicious treats from scratch!',
+    description: 'about.MOE_DESCRIPTION',
     borderColor: 'border-pink-400',
     backgroundColor: 'bg-pink-400',
     buttonColor: 'border-pink-400',
@@ -12,10 +11,9 @@ export const ABOUT_DATA = [
   },
   {
     imageSrc: 'assets/story-imgs/juan.jpg',
-    caption: 'Manager/Cook',
+    jobTitle: 'about.PERSON_JOB_TITLE_MANAGER',
     name: 'Juan',
-    description:
-      'uan likes trying new recipes and learning all the new skills that come with a cafe. He enjoys Mexican food.',
+    description: 'about.JUAN_DESCRIPTION',
     borderColor: 'border-emerald-500',
     backgroundColor: 'bg-emerald-500',
     buttonColor: 'border-emerald-500',
@@ -23,10 +21,9 @@ export const ABOUT_DATA = [
   },
   {
     imageSrc: 'assets/story-imgs/moko.jpg',
-    caption: 'King/Cat',
+    jobTitle: 'about.PERSON_JOB_TITLE_CAT',
     name: 'Moko',
-    description:
-      'oko is our lovely son. He is a spoiled boy but he is very kind and adventurous. He loves chicken.',
+    description: 'about.MOKO_DESCRIPTION',
     borderColor: 'border-orange-400',
     backgroundColor: 'bg-orange-400',
     buttonColor: 'border-orange-400',
@@ -34,10 +31,9 @@ export const ABOUT_DATA = [
   },
   {
     imageSrc: 'assets/story-imgs/family.jpg',
-    caption: 'Family Pic',
+    jobTitle: 'about.PERSON_JOB_TITLE_FAMILY',
     name: 'Our Family',
-    description:
-      'ur small family wants to say thank you for visiting our site and welcomes you to visit our cafe.',
+    description: 'about.FAMILY_DESCRIPTION',
     borderColor: 'border-cyan-400',
     backgroundColor: 'bg-cyan-400',
     buttonColor: 'border-cyan-400',

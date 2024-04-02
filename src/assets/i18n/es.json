@@ -10,5 +10,18 @@
   "hero": {
     "CAFE_NAME": "Cafe Triangle",
     "CAFE_SLOGAN": "Compartiendo nuestra cultura, un postre a la vez."
+  },
+  "about": {
+    "ABOUT_TITLE": "Acerca De Nosotros",
+    "SPECIALIZATION": "¡Nos especializamos en pasteles, comidas y bebidas populares de las culturas japonesa, mexicana y estadounidense!",
+    "ABOUT_TAGLINE": "¡VAMOS A CONOCERNOS MEJOR!",
+    "PERSON_JOB_TITLE_OWNER": "Propietario/Panadero",
+    "PERSON_JOB_TITLE_MANAGER": "Gerente/Cocinero",
+    "PERSON_JOB_TITLE_CAT": "Rey/Gato",
+    "PERSON_JOB_TITLE_FAMILY": "Foto de familia",
+    "MOE_DESCRIPTION": "Moe lleva más de 10 años horneando. ¡Realmente disfruta el proceso de crear deliciosas golosinas desde cero!",
+    "JUAN_DESCRIPTION": "A Juan le gusta probar nuevas recetas y aprender todas las habilidades nuevas que vienen con un café. Le gusta la comida mexicana.",
+    "MOKO_DESCRIPTION": "Moko es nuestro adorable hijo. Es un niño consentido pero es muy amable y aventurero. ¡Le encanta el pollo!",
+    "FAMILY_DESCRIPTION": "Nuestra pequeña familia quiere agradecerles por visitar nuestro sitio y les da la bienvenida a visitar nuestro café."
   }
 }
