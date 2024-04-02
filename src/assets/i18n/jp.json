@@ -60,5 +60,8 @@
     "PETS_INFO": "ペット同伴可能",
     "EXTRAS_INFO": "無料Wifi / 駐車場4台",
     "VEGAN_INFO": "豆乳 / ビーガンペストリーあり"
+  },
+  "footer": {
+    "LOCATION": "日本、石川県"
   }
 }

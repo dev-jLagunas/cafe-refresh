@@ -60,5 +60,8 @@
     "PETS_INFO": "Aceptamos Mascotas",
     "EXTRAS_INFO": "Wifi Gratis / 4 Plazas de Aparcamiento",
     "VEGAN_INFO": "Leche de Soja / Pasteles Veganos Disponibles"
+  },
+  "footer": {
+    "LOCATION": "Ishikawa, Japón"
   }
 }

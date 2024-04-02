@@ -60,5 +60,8 @@
     "PETS_INFO": "We Are Pet Friendly",
     "EXTRAS_INFO": "Free Wifi / 4 Parking Spots",
     "VEGAN_INFO": "Soy Milk / Vegan Pastries Available"
+  },
+  "footer": {
+    "LOCATION": "Ishikawa, Japan"
   }
 }
