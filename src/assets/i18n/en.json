@@ -23,5 +23,18 @@
     "JUAN_DESCRIPTION": "Juan likes trying new recipes and learning all the new skills that come with a cafe. He enjoys Mexican food.",
     "MOKO_DESCRIPTION": "Moko is our lovely son. He is a spoiled boy but he is very kind and adventurous. He loves chicken.",
     "FAMILY_DESCRIPTION": "Our small family wants to say thank you for visiting our site and welcomes you to visit our cafe."
+  },
+  "menu-landing": {
+    "MENU_TITLE": "Our Menu",
+    "MENU_TAGLINE": "WE HAVE A CHAIR READY FOR YOU!",
+    "SEE_MENU_BTN": "See Menu",
+    "DESSERTS": "Desserts",
+    "FOOD": "Food",
+    "DRINKS": "Drinks",
+    "SPECIAL": "Special",
+    "DESSERTS_INFO": "We offer over 12 dessert options for your sweet tooth! Many of them only available here in all of the Horukiru area.",
+    "FOOD_INFO": "Our speciality is Tex-Mex! We have 3 diferent burritos available. Chicken, Carnits, and Veggie. All three packed with flavor!",
+    "DRINKS_INFO": "We have all the tasty coffee based drinks you've come to know! Plus, a few extra special drinks for those who prefer something sweeter.",
+    "SPECIALS-INFO": "Be on the lookout for special desserts, drinks, and food! We love offering creative items based on the season or special holidays!"
   }
 }

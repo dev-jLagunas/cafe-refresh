@@ -23,5 +23,18 @@
     "JUAN_DESCRIPTION": "A Juan le gusta probar nuevas recetas y aprender todas las habilidades nuevas que vienen con un café. Le gusta la comida mexicana.",
     "MOKO_DESCRIPTION": "Moko es nuestro adorable hijo. Es un niño consentido pero es muy amable y aventurero. ¡Le encanta el pollo!",
     "FAMILY_DESCRIPTION": "Nuestra pequeña familia quiere agradecerles por visitar nuestro sitio y les da la bienvenida a visitar nuestro café."
+  },
+  "menu-landing": {
+    "MENU-TITLE": "Nuestro Menú",
+    "MENU_TAGLINE": "¡Tenemos una silla lista para ti!",
+    "SEE_MENU_BTN": "Ver Menú",
+    "DESSERTS": "Postres",
+    "FOOD": "Comida",
+    "DRINKS": "Bebidas",
+    "SPECIAL": "Especial",
+    "DESSERTS_INFO": "¡Ofrecemos más de 12 opciones de postres para tu gusto dulce! Muchos de ellos solo disponibles aquí en toda el área de Horukiru.",
+    "FOOD_INFO": "¡Nuestra especialidad es Tex-Mex! Tenemos 3 diferentes burritos disponibles. ¡Pollo, Carnitas y Veggie. Los tres están llenos de sabor!",
+    "DRINKS_INFO": "¡Tenemos todas las deliciosas bebidas a base de café que conoces! Además, algunas bebidas extra especiales para aquellos que prefieren algo más dulce.",
+    "SPECIALS_INFO": "¡Estate atento a los postres, bebidas y comida especiales! ¡Nos encanta ofrecer artículos creativos basados en la temporada o en días festivos especiales!"
   }
 }

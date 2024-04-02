@@ -3,7 +3,7 @@
     <h1
       class="font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-300 dark:border-x-slate-800 tracking-widest text-2xl hover:cursor-pointer"
     >
-      <a routerLink="menu">Our Menu</a>
+      <a routerLink="menu">{{ "menu-landing.MENU_TITLE" | translate }}</a>
     </h1>
   </header>
   <section
@@ -25,17 +25,16 @@
         <p
           class="text-xs font-bold tracking-widest mb-4 border-l-4 border-l-blue-400 pl-2 lg:text-lg lg:border-l-0 lg:border-b-2 lg:border-b-blue-400"
         >
-          Desserts
+          {{ "menu-landing.DESSERTS" | translate }}
         </p>
         <p class="text-xxs mb-4 2xl:text-base">
-          We offer over 12 dessert options for your sweet tooth! Many of them
-          only available here in all of the Horukiru area.
+          {{ "menu-landing.DESSERTS_INFO" | translate }}
         </p>
         <button
           class="border-2 border-blue-400 w-full rounded-sm py-1 bg-blue-400 text-slate-100 text-xs tracking-widest font-bold md:w-2/3 lg:w-full"
           routerLink="menu"
         >
-          See Menu
+          {{ "menu-landing.SEE_MENU_BTN" | translate }}
         </button>
       </div>
     </article>
@@ -48,17 +47,16 @@
         <p
           class="text-xs font-bold tracking-widest mb-4 border-r-4 border-r-green-400 pr-2 text-right lg:text-lg lg:border-r-0 lg:border-b-2 lg:border-b-green-400"
         >
-          Food
+          {{ "menu-landing.FOOD" | translate }}
         </p>
         <p class="text-xxs mb-4 text-right 2xl:text-base">
-          Our speciality is Tex-Mex! We have 3 diferent burritos available.
-          Chicken, Carnits, and Veggie. All three packed with flavor!
+          {{ "menu-landing.FOOD_INFO" | translate }}
         </p>
         <button
           class="border-2 border-green-400 w-full rounded-sm py-1 bg-green-400 text-slate-100 text-xs tracking-widest font-bold md:w-2/3 md:ml-auto lg:mb-2 lg:w-full"
           routerLink="menu"
         >
-          See Menu
+          {{ "menu-landing.SEE_MENU_BTN" | translate }}
         </button>
       </div>
       <figure class="col-span-2">
@@ -85,17 +83,16 @@
         <p
           class="text-xs font-bold tracking-widest mb-4 border-l-4 border-l-amber-400 pl-2 lg:text-lg lg:border-l-0 lg:border-b-2 lg:border-b-amber-400"
         >
-          Drinks
+          {{ "menu-landing.DRINKS" | translate }}
         </p>
         <p class="text-xxs mb-4 2xl:text-base">
-          We have all the tasty coffee based drinks you've come to know! Plus, a
-          few extra special drinks for those who prefer something sweeter.
+          {{ "menu-landing.DRINKS_INFO" | translate }}
         </p>
         <button
           class="border-2 border-amber-400 w-full rounded-sm py-1 bg-amber-400 text-slate-100 text-xs tracking-widest font-bold md:w-2/3 lg:w-full"
           routerLink="menu"
         >
-          See Menu
+          {{ "menu-landing.SEE_MENU_BTN" | translate }}
         </button>
       </div>
     </article>
@@ -108,17 +105,16 @@
         <p
           class="text-xs font-bold tracking-widest mb-4 border-r-4 border-red-400 pr-2 text-right lg:text-lg lg:border-r-0 lg:border-b-2 lg:border-b-red-400"
         >
-          Special
+          {{ "menu-landing.SPECIAL" | translate }}
         </p>
         <p class="text-xxs mb-4 text-right 2xl:text-base">
-          Be on the lookout for special desserts, drinks, and food! We love
-          offering creative items based on the season or special holidays!
+          {{ "menu-landing.SPECIALS_INFO" | translate }}
         </p>
         <button
           class="border-2 border-red-400 w-full rounded-sm py-1 bg-red-400 text-slate-100 text-xs tracking-widest font-bold md:w-2/3 md:ml-auto lg:mb-2 lg:w-full"
           routerLink="menu"
         >
-          See Menu
+          {{ "menu-landing.SEE_MENU_BTN" | translate }}
         </button>
       </div>
       <figure class="col-span-2">
@@ -278,5 +274,5 @@
 <p
   class="font-comfortaa text-xs text-center text-slate-800 dark:text-slate-100 my-10"
 >
-  WE HAVE A CHAIR READY FOR YOU!
+  {{ "menu-landing.MENU_TAGLINE" | translate }}
 </p>
