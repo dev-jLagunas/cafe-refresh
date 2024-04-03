@@ -23,11 +23,10 @@ This is complete refactor for Cafe Triangle website. Cafe Triangle is a small ca
 
 ### Desktop
 
-![Desktop screenshot](src/assets/screenshots/desktop.png)
-
-### Mobile
-
-![Mobile screenshot](src/assets/screenshots/mobile.png)
+<p float="left">
+  <img src="src/assets/screenshots/desktop.png" width="400" alt="Desktop screenshot">
+  <img src="src/assets/screenshots/mobile.png" width="400" alt="Mobile screenshot">
+</p>
 
 ## Technologies Used
 
