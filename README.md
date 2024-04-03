@@ -21,7 +21,7 @@ This is complete refactor for Cafe Triangle website. Cafe Triangle is a small ca
 
 ### Desktop
 
-![Desktop screenshot](assets/screenshots/desktop.png)
+![Desktop screenshot](src/assets/screenshots/desktop.png)
 
 ### Mobile
 
