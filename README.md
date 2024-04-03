@@ -25,7 +25,7 @@ This is complete refactor for Cafe Triangle website. Cafe Triangle is a small ca
 
 <p float="left">
   <img src="src/assets/screenshots/desktop.png" width="400" alt="Desktop screenshot">
-  <img src="src/assets/screenshots/mobile.png" width="400" alt="Mobile screenshot">
+  <img src="src/assets/screenshots/mobile.png" width="200" alt="Mobile screenshot">
 </p>
 
 ## Technologies Used
@@ -45,3 +45,11 @@ Clone down this repository. You will need `node` and `npm` installed globally on
 - Installation: `npm install`
 - To Start Server: `ng serve`
 - To Visit App: `localhost:4200`
+
+## Contributing
+
+While this project is primarily a personal, educational project, input and suggestions are welcome. If you have feedback, please open an issue in this repository.
+
+## License
+
+This project is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for details.
