@@ -24,8 +24,8 @@ This is complete refactor for Cafe Triangle website. Cafe Triangle is a small ca
 ### Desktop
 
 <p float="left">
-  <img src="src/assets/screenshots/desktop.png" width="400" alt="Desktop screenshot">
-  <img src="src/assets/screenshots/mobile.png" width="200" alt="Mobile screenshot">
+  <img src="src/assets/screenshots/desktop.png" width="auto" alt="Desktop screenshot">
+  <img src="src/assets/screenshots/mobile.png" width="auto" alt="Mobile screenshot">
 </p>
 
 ## Technologies Used
