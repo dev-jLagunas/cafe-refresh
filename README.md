@@ -1,5 +1,7 @@
 # CafeRefresh
 
+Live Site: [CafeTriangle](https://cafe-triangle.com)
+
 This is complete refactor for Cafe Triangle website. Cafe Triangle is a small cafe located in Ishikawa, Japan. This site provides information about Cafe Triangle, including its pastries, drinks, food options, and location. It also expands upon the last site by adding new functionality, new styles, new layout, and other important Angular optimizing features. This site was created by one of the cafe Owners, Juan Lagunas.
 
 ## Features
@@ -41,14 +43,6 @@ This is complete refactor for Cafe Triangle website. Cafe Triangle is a small ca
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-Installation:
-
-`npm install`
-
-To Start Server:
-
-`ng serve`
-
-To Visit App:
-
-`localhost:4200`
+- Installation: `npm install`
+- To Start Server: `ng serve`
+- To Visit App: `localhost:4200`
