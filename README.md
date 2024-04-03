@@ -53,3 +53,11 @@ While this project is primarily a personal, educational project, input and sugge
 ## License
 
 This project is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+**Juan Lagunas** - [GitHub](https://github.com/dev-jLagunas)
+
+Feel free to reach out if you have any questions, or if you want to discuss this project. You can also [open an issue](https://github.com/dev-jLagunas/cafe-refresh/issues/new) for any bugs you've found or enhancements you think would be useful.
+
+For more of my work, check out my [GitHub profile](https://github.com/dev-jLagunas) or visit my FrontendMentor for other projects I've done [FrontendMentor](https://www.frontendmentor.io/profile/dev-jLagunas)
