@@ -13,21 +13,19 @@
   <div
     class="w-90vw mx-auto mb-4 md:text-center md:grid md:grid-cols-2 lg:w-2/3 xl:w-max"
   >
-    <div class="flex items-center justify-center flex-col text-slate-600">
-      <h2
-        class="my-4 tracking-widest md:w-full md:mx-auto hover:text-red-500 duration-500"
-      >
-        <i class="fa-solid fa-caret-right text-slate-500"></i>
+    <div
+      class="flex items-center justify-center flex-col text-slate-800 dark:text-slate-200"
+    >
+      <h2 class="my-4 tracking-widest md:w-full md:mx-auto">
+        <i class="fa-solid fa-caret-right text-blue-400"></i>
         {{ "gallery-landing.WONDERFUL_MOMENT" | translate }}
-        <i class="fa-solid fa-caret-left text-slate-500"></i>
+        <i class="fa-solid fa-caret-left text-blue-400"></i>
       </h2>
-      <p
-        class="text-center text-sm mb-4 lg:w-96 xl:ml-16 hover:text-green-400 duration-500"
-      >
+      <p class="text-center text-sm mb-4 lg:w-96 xl:ml-16">
         {{ "gallery-landing.WONDERFUL_DESCRIPTION" | translate }}
       </p>
       <button
-        class="bg-slate-800 text-slate-100 w-max mx-auto px-4 py-2 rounded-md hover:text-slate-800 hover:bg-slate-500 duration-500 text-xs dark:text-slate-100 mb-2"
+        class="border border-blue-400 text-slate-800 w-max mx-auto px-4 py-2 rounded-md text-xs dark:text-slate-100 mb-2 hover:scale-x-105"
         routerLink="gallery"
       >
         {{ "gallery-landing.SEE_MORE_BTN" | translate }}
@@ -36,7 +34,8 @@
     <img
       src="assets/gallery-landing/higaki-moe.jpg"
       alt="Store owner with customer and pet"
-      class="rounded-md h-auto mx-auto xs:h-52"
+      class="rounded-md h-auto mx-auto xs:h-52 hover:cursor-pointer"
+      routerLink="gallery"
     />
   </div>
   <figure
@@ -82,20 +81,20 @@
   <div
     class="text-center xs:w-90vw xs:mx-auto md:w-1/2 md:mr-auto lg:w-1/4 mb-6 md:flex md:flex-col"
   >
-    <div>
+    <div class="dark:text-slate-200">
       <h2
-        class="w-max mx-auto tracking-widest text-center my-4 lg:w-full text-slate-600"
+        class="w-max mx-auto tracking-widest text-center my-4 lg:w-full text-slate-800 dark:text-slate-200"
       >
-        <i class="fa-solid fa-caret-right text-slate-600"></i>
+        <i class="fa-solid fa-caret-right text-orange-400"></i>
         {{ "gallery-landing.LIFE_IN_COLOR" | translate }}
-        <i class="fa-solid fa-caret-left text-slate-600"></i>
+        <i class="fa-solid fa-caret-left text-orange-400"></i>
       </h2>
-      <p class="text-center text-sm mb-4 text-slate-600">
+      <p class="text-center text-sm mb-4 text-slate-800 dark:text-slate-200">
         {{ "gallery-landing.LIFE_IN_COLOR_DESCRIPTION" | translate }}
       </p>
     </div>
     <button
-      class="bg-slate-800 w-max mx-auto text-slate-100 mt-2 px-4 py-2 rounded-md text-sm"
+      class="border-orange-400 border w-max mx-auto text-slate-800 mt-2 px-4 py-2 rounded-md text-sm hover:scale-x-105 dark:text-slate-200"
       routerLink="gallery"
     >
       {{ "gallery-landing.SEE_MORE_BTN" | translate }}
