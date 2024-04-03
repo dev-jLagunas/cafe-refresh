@@ -5,8 +5,16 @@ import { MenuPageComponent } from './menu-page/menu-page.component';
 import { MenuItemComponent } from './menu-page/menu-item/menu-item.component';
 
 export const routes: Routes = [
-  { path: '', component: LandingHomeComponent },
-  { path: 'gallery', component: GalleryPageComponent },
-  { path: 'menu', component: MenuPageComponent },
-  { path: 'details/:id', component: MenuItemComponent },
+  { path: '', component: LandingHomeComponent, title: 'Cafe Triangle - Home' },
+  {
+    path: 'gallery',
+    component: GalleryPageComponent,
+    title: 'Cafe Triangle - Gallery',
+  },
+  {
+    path: 'menu',
+    component: MenuPageComponent,
+    title: 'Cafe Triangle- Full Menu',
+  },
+  { path: 'details/:id', component: MenuItemComponent, title: 'Menu Item' },
 ];
