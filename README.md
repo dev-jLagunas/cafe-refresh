@@ -58,6 +58,16 @@ This project is licensed under the terms of the MIT License. See the [LICENSE](L
 
 **Juan Lagunas** - [GitHub](https://github.com/dev-jLagunas)
 
+Email: dev.jlagunas@gmail.com
+
 Feel free to reach out if you have any questions, or if you want to discuss this project. You can also [open an issue](https://github.com/dev-jLagunas/cafe-refresh/issues/new) for any bugs you've found or enhancements you think would be useful.
 
 For more of my work, check out my [GitHub profile](https://github.com/dev-jLagunas) or visit my FrontendMentor for other projects I've done [FrontendMentor](https://www.frontendmentor.io/profile/dev-jLagunas)
+
+## Acknowledgements
+
+- Thanks to [Cafe Triangle](https://cafe-triangle.com) for the opportunity to work on this project.
+- Thanks to [Angular](https://angular.io/) and [Flowbite](https://flowbite.com/) for their excellent libraries.
+- Thanks to [Frontend Mentor](https://www.frontendmentor.io/) for providing great projects to learn frontend development.
+- Thanks to all the contributors who have helped with this project.
+- Thanks to my wife for giving me the opportunity to spend so much time in front of a computer.
