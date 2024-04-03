@@ -1,27 +1,54 @@
 # CafeRefresh
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+This is complete refactor for Cafe Triangle website. Cafe Triangle is a small cafe located in Ishikawa, Japan. This site provides information about Cafe Triangle, including its pastries, drinks, food options, and location. It also expands upon the last site by adding new functionality, new styles, new layout, and other important Angular optimizing features. This site was created by one of the cafe Owners, Juan Lagunas.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Responsive Design:** The website is fully responsive, with layouts optimized for screens ranging from mobile (320px) to 4K (2560px).
+- **Dark Mode:** Users can toggle between light and dark modes for a customizable viewing experience.
+- **Multilingual Support:** The website supports English, Japanese, and Spanish languages, implemented using ngx-translate.
+- **Angular Page Transitions:** Smooth and visually appealing page transitions enhance the user experience.
+- **Performance Optimizations:** The website uses Angular's @defer directive for efficient loading, and images are lazy-loaded and resized to optimize performance.
+- **Accessibility Features:** The website is built with semantic HTML, includes alt attributes for all images, and follows other best practices for web accessibility.
+- **Google Maps Integration:** A link to Google Maps provides users with easy access to the cafe's location.
+- **Custom UI Components:** The website features custom UI components for a unique and engaging user interface.
+- **Flowbite Components:** Flowbite components are used to build responsive grid layouts.
+- **Menu Item Filtering:** Users can filter menu items for a more streamlined browsing experience.
+- **Lighthouse Audits:** Regular Lighthouse audits ensure the website maintains high performance, accessibility, and SEO standards.
+- **Angular Dynamic Interpolation:** Dynamic interpolation capabilities in Angular are used to efficiently update and display data.
 
-## Code scaffolding
+## Screenshots
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Desktop
 
-## Build
+![Desktop screenshot](assets/screenshots/desktop.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Mobile
 
-## Running unit tests
+![Mobile screenshot](src/assets/screenshots/mobile.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technologies Used
 
-## Running end-to-end tests
+- Angular CLI version 17.3.0: The core framework for building the single page application.
+- TypeScript: Used for static typing and enhancing JavaScript code.
+- HTML 5: Markup language for creating the structure of web pages.
+- Tailwind CSS ^3.4.1: A utility-first CSS framework for rapid UI development.
+- SCSS: CSS preprocessor for more maintainable stylesheets.
+- ngx-translate ^15.0.0: Internationalization library for Angular.
+- flowbite ^2.3.0: Utility classes for building responsive grid layouts.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Installation and Setup Instructions
 
-## Further help
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Installation:
+
+`npm install`
+
+To Start Server:
+
+`ng serve`
+
+To Visit App:
+
+`localhost:4200`
