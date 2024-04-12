@@ -39,4 +39,8 @@ export class AppComponent {
   changeLanguage(language: string) {
     this.translate.use(language);
   }
+
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }
