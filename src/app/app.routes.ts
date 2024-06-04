@@ -1,22 +1,42 @@
 import { Routes } from '@angular/router';
-import { LandingHomeComponent } from './landing-home/landing-home.component';
-import { GalleryPageComponent } from './gallery-page/gallery-page.component';
-import { MenuPageComponent } from './menu-page/menu-page.component';
-import { MenuItemComponent } from './menu-page/menu-item/menu-item.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
 export const routes: Routes = [
-  { path: '', component: LandingHomeComponent, title: 'Cafe Triangle - Home' },
+  {
+    path: '',
+    loadComponent: () =>
+      import('./landing-home/landing-home.component').then(
+        (m) => m.LandingHomeComponent
+      ),
+    title: 'Cafe Triangle - Home',
+  },
   {
     path: 'gallery',
-    component: GalleryPageComponent,
+    loadComponent: () =>
+      import('./gallery-page/gallery-page.component').then(
+        (m) => m.GalleryPageComponent
+      ),
     title: 'Cafe Triangle - Gallery',
   },
   {
     path: 'menu',
-    component: MenuPageComponent,
+    loadComponent: () =>
+      import('./menu-page/menu-page.component').then(
+        (m) => m.MenuPageComponent
+      ),
     title: 'Cafe Triangle - Full Menu',
   },
-  { path: 'details/:id', component: MenuItemComponent, title: 'Menu Item' },
-  { path: '**', component: NotFoundComponent, title: '404 Not Found' },
+  {
+    path: 'details/:id',
+    loadComponent: () =>
+      import('./menu-page/menu-item/menu-item.component').then(
+        (m) => m.MenuItemComponent
+      ),
+    title: 'Menu Item',
+  },
+  {
+    path: '**',
+    component: NotFoundComponent,
+    title: '404 Not Found',
+  },
 ];
