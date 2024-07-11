@@ -17,7 +17,7 @@ export class MenuPageComponent {
 
   constructor(private menuService: MenuService) {
     this.menuItems = this.menuService.getAllMenuItems();
-    this.filteredItems = this.menuItems.slice(); // Initialize filteredItems here
+    this.filteredItems = this.menuItems.slice();
   }
 
   filteredItems: MenuProducts[] = this.menuItems.slice();

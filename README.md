@@ -68,6 +68,6 @@ For more of my work, check out my [GitHub profile](https://github.com/dev-jLagun
 
 - Thanks to [Cafe Triangle](https://cafe-triangle.com) for the opportunity to work on this project.
 - Thanks to [Angular](https://angular.io/) and [Flowbite](https://flowbite.com/) for their excellent libraries.
-- Thanks to [Frontend Mentor](https://www.frontendmentor.io/) for providing great projects to learn frontend development.
+
 - Thanks to all the contributors who have helped with this project.
 - Thanks to my wife for giving me the opportunity to spend so much time in front of a computer.
