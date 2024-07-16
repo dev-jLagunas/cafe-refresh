@@ -44,7 +44,7 @@
   >
     @for ( item of filteredItems ; track $index) {
     <article class="flex flex-col mb-8 relative">
-      <figure class="">
+      <figure>
         <a [routerLink]="['/details', item.id]">
           <img
             src="{{ item.img }}"

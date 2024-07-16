@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MenuProducts } from '../models/menu-product.model';
 import { MenuService } from '../services/menu.service';
 import { RouterLink } from '@angular/router';
@@ -12,19 +12,20 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './menu-page.component.html',
   styleUrl: './menu-page.component.scss',
 })
-export class MenuPageComponent {
+export class MenuPageComponent implements OnInit {
   menuItems: MenuProducts[] = [];
+  filteredItems: MenuProducts[] = [];
 
-  constructor(private menuService: MenuService) {
+  constructor(private menuService: MenuService) {}
+
+  ngOnInit(): void {
     this.menuItems = this.menuService.getAllMenuItems();
-    this.filteredItems = this.menuItems.slice();
+    this.filteredItems = [...this.menuItems];
   }
 
-  filteredItems: MenuProducts[] = this.menuItems.slice();
-
-  filterItems(category: string) {
+  filterItems(category: string): void {
     if (category === 'all') {
-      this.filteredItems = this.menuItems.slice();
+      this.filteredItems = [...this.menuItems];
     } else {
       this.filteredItems = this.menuItems.filter(
         (item) => item.category === category

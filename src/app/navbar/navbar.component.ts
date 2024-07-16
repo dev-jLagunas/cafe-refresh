@@ -18,7 +18,7 @@ export class NavbarComponent {
     this.toggleDarkMode.emit();
   }
 
-  changeLanguage(language: string) {
+  onChangeLanguage(language: string) {
     this.languageChange.emit(language);
   }
 }
