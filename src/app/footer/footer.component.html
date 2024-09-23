@@ -20,7 +20,7 @@
     />
   </div>
   <div class="text-center lg:mb-10">
-    <h3 class="tracking-widest text-base md:text-2xl">Cafe Triangle</h3>
+    <p class="tracking-widest text-base md:text-2xl">Cafe Triangle</p>
     <p class="text-sm">076-259-5626</p>
     <p class="text-sm">cafetriangle1&#64;gmail.com</p>
     <p class="text-sm">{{ "footer.LOCATION" | translate }}</p>
@@ -30,40 +30,45 @@
     class="flex justify-evenly items-center w-full text-xxs my-4 text-slate-300"
   >
     <li class="hover:text-slate-100">
-      <a href="#about">{{ "navbar.ABOUT" | translate }}</a>
+      <a href="#about" aria-label="About">{{ "navbar.ABOUT" | translate }}</a>
     </li>
     <li class="hover:text-slate-100">
-      <a href="#menu">{{ "navbar.MENU" | translate }}</a>
+      <a href="#menu" aria-label="Menu">{{ "navbar.MENU" | translate }}</a>
     </li>
     <li class="hover:text-slate-100">
-      <a href="#home">{{ "navbar.HOME" | translate }}</a>
+      <a href="#home" aria-label="Home">{{ "navbar.HOME" | translate }}</a>
     </li>
     <li class="hover:text-slate-100">
-      <a href="#gallery">{{ "navbar.GALLERY" | translate }}</a>
+      <a href="#gallery" aria-label="Gallery">{{
+        "navbar.GALLERY" | translate
+      }}</a>
     </li>
     <li class="hover:text-slate-100">
-      <a href="#info">{{ "navbar.INFO" | translate }}</a>
+      <a href="#info" aria-label="Info">{{ "navbar.INFO" | translate }}</a>
     </li>
   </ul>
 
   <ul class="flex justify-end gap-4 text-xxs text-slate-400 mb-2">
     <li class="hover:text-slate-100">
-      <a href="https://www.facebook.com/CafeTriangle1/">
+      <a href="https://www.facebook.com/CafeTriangle1/" aria-label="Facebook">
         <i class="fab fa-facebook-square"></i>
       </a>
     </li>
     <li class="hover:text-slate-100">
-      <a href="https://www.instagram.com/cafetriangle1/?hl=en">
+      <a
+        href="https://www.instagram.com/cafetriangle1/?hl=en"
+        aria-label="Instagram"
+      >
         <i class="fab fa-instagram"></i>
       </a>
     </li>
     <li class="hover:text-slate-100">
-      <a href="mailto:cafetriangle1@gmail.com">
+      <a href="mailto:cafetriangle1@gmail.com" aria-label="Email">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
     <li class="hover:text-slate-100">
-      <a href="tel:+81076-259-5626">
+      <a href="tel:+81076-259-5626" aria-label="Phone number">
         <i class="fas fa-phone"></i>
       </a>
     </li>
