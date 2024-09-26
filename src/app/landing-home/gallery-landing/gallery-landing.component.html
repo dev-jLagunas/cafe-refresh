@@ -1,21 +1,13 @@
-<section
-  class="h-max font-comfortaa flex flex-col dark:text-slate-100 text-slate-800"
->
+<section class="gallery-landing-container">
   <header class="mb-6 relative py-5">
-    <h1
-      class="font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-300 dark:border-x-slate-600 tracking-widest text-2xl"
-    >
+    <h1 class="gallery-main-title">
       <a routerLink="gallery">
         {{ "gallery-landing.GALLERY_TITLE" | translate }}
       </a>
     </h1>
   </header>
-  <div
-    class="w-90vw mx-auto mb-4 md:text-center md:grid md:grid-cols-2 lg:w-2/3 xl:w-max"
-  >
-    <div
-      class="flex items-center justify-center flex-col text-slate-800 dark:text-slate-200"
-    >
+  <div class="gallery-imgs-wrapper">
+    <div class="gallery-imgs-container">
       <h2 class="my-4 tracking-widest md:w-full md:mx-auto">
         <i class="fa-solid fa-caret-right text-blue-400"></i>
         {{ "gallery-landing.WONDERFUL_MOMENT" | translate }}
@@ -24,10 +16,7 @@
       <p class="text-center text-sm mb-4 lg:w-96 xl:ml-16">
         {{ "gallery-landing.WONDERFUL_DESCRIPTION" | translate }}
       </p>
-      <button
-        class="border border-blue-400 text-slate-800 w-max mx-auto px-4 py-2 rounded-md text-xs dark:text-slate-100 mb-2 hover:scale-x-105"
-        routerLink="gallery"
-      >
+      <button class="gallery-landing-btn" routerLink="gallery">
         {{ "gallery-landing.SEE_MORE_BTN" | translate }}
       </button>
     </div>
@@ -38,65 +27,56 @@
       routerLink="gallery"
     />
   </div>
-  <figure
-    class="w-90vw grid grid-cols-2 gap-2 mx-auto xs:w-max md:grid-cols-5 md:w-90vw md:mx-auto lg:w-2/3 xl:w-max hover:cursor-pointer"
-  >
+  <figure class="gallery-grid-wrapper">
     <img
       src="assets/gallery-landing/anko2.jpg"
-      alt=""
-      class="rounded-md h-auto w-40 xs:h-52 xl:h-64"
+      alt="Owner with dog friend"
+      class="gallery-img"
       routerLink="gallery"
     />
     <img
       src="assets/gallery-landing/carnitastaco.jpg"
-      alt=""
-      class="rounded-md h-auto w-40 xs:h-52 xl:h-64 hidden"
+      alt="Carnitas taco"
+      class="gallery-img md:hidden"
       routerLink="gallery"
     />
     <img
       src="assets/gallery-landing/mokothinking.jpg"
-      alt=""
-      class="rounded-md h-auto w-40 xs:h-52 xl:h-64"
+      alt="Cat holding coffee mug"
+      class="gallery-img"
       routerLink="gallery"
     />
     <img
       src="assets/gallery-landing/kimonosun.jpg"
-      alt=""
-      class="rounded-md h-auto w-40 xs:h-52 xl:h-64"
+      alt="Owner wearing a kimono"
+      class="gallery-img"
       routerLink="gallery"
     />
     <img
       src="assets/gallery-landing/wallcolorful.jpg"
-      alt=""
-      class="rounded-md h-auto w-40 xs:h-52 xl:h-64"
+      alt="Colorful wall design"
+      class="gallery-img"
       routerLink="gallery"
     />
     <img
       src="assets/gallery-landing/chickentaco.jpg"
-      alt=""
-      class="rounded-md h-auto w-40 xs:h-52 hidden md:grid xl:h-64"
+      alt="Chicken taco"
+      class="gallery-img"
       routerLink="gallery"
     />
   </figure>
-  <div
-    class="text-center xs:w-90vw xs:mx-auto md:w-1/2 md:mr-auto lg:w-1/4 mb-6 md:flex md:flex-col"
-  >
+  <div class="gallery-description-wrapper">
     <div class="dark:text-slate-200">
-      <h2
-        class="w-max mx-auto tracking-widest text-center my-4 lg:w-full text-slate-800 dark:text-slate-200"
-      >
+      <h2 class="gallery-description-title">
         <i class="fa-solid fa-caret-right text-orange-400"></i>
         {{ "gallery-landing.LIFE_IN_COLOR" | translate }}
         <i class="fa-solid fa-caret-left text-orange-400"></i>
       </h2>
-      <p class="text-center text-sm mb-4 text-slate-800 dark:text-slate-200">
+      <p class="gallery-description-text">
         {{ "gallery-landing.LIFE_IN_COLOR_DESCRIPTION" | translate }}
       </p>
     </div>
-    <button
-      class="border-orange-400 border w-max mx-auto text-slate-800 mt-2 px-4 py-2 rounded-md text-sm hover:scale-x-105 dark:text-slate-200"
-      routerLink="gallery"
-    >
+    <button class="gallery-landing-footer-btn" routerLink="gallery">
       {{ "gallery-landing.SEE_MORE_BTN" | translate }}
     </button>
   </div>

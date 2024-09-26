@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ABOUT_DATA } from './ABOUT_DATA';
 import { NgClass } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
+
 @Component({
   selector: 'app-about-landing',
   standalone: true,

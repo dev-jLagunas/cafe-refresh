@@ -2,6 +2,249 @@
 @tailwind components;
 @tailwind utilities;
 
+/************************************************
+TAILWIND UTILITY CLASSES
+*************************************************/
+
+// app.component
+.scroll-top-btn {
+  @apply fixed bottom-0 right-0 transform text-4xl p-2 rounded-full bg-red-500 text-white opacity-70 hover:py-10 hover:opacity-100 ease-in-out duration-500;
+}
+
+// navbar.component
+.nav-links-container {
+  @apply flex justify-evenly font-extralight text-xs mt-2 lg:text-base;
+}
+
+.nav-link-item {
+  @apply hover:scale-125 duration-500 py-1;
+}
+
+.nav-sns-container {
+  @apply my-4 flex items-center justify-around text-slate-600 dark:text-slate-300;
+}
+
+.nav-sns-item {
+  @apply hover:text-slate-700 dark:hover:text-slate-200 hover:scale-110 duration-100;
+}
+
+.nav-lang-btn-container {
+  @apply divide-x divide-slate-200 font-comfortaa text-xxs text-slate-800 dark:text-slate-300 dark:divide-slate-600 flex;
+}
+
+.nav-lang-btn {
+  @apply px-2 py-1 hover:scale-110;
+}
+
+.nav-darkmode-btn {
+  @apply flex text-slate-600 dark:text-slate-300 text-xs hover:scale-125 duration-500 mx-auto;
+}
+
+// hero-landing.component
+.hero-header-container {
+  @apply text-center py-4 relative lg:mt-10;
+}
+
+.hero-main-title {
+  @apply text-4xl text-slate-950 tracking-wide dark:text-slate-100 xs:text-4xl sm:text-5xl;
+}
+
+.hero-tagline-text {
+  @apply text-slate-800 mx-auto dark:text-slate-200 text-xs border-x border-x-slate-300 w-max px-2 xs:px-6 pt-14 -mt-12 md:pt-10 md:-mt-10 dark:border-x-slate-600 sm:text-lg;
+}
+
+.hero-imgs-container {
+  @apply grid grid-cols-3 gap-2 px-2 my-4 mx-auto sm:mx-auto sm:w-4/5 md:w-full xl:w-5/6 2xl:w-4/5 relative;
+}
+
+.hero-img-wrapper {
+  @apply h-28 p-4 rounded-md xs:h-32 sm:h-36 lg:h-52 dark:bg-opacity-60 hover:dark:bg-opacity-100 hover:scale-125 xs:hover:scale-150 duration-700 ease-in-out relative hover:z-10;
+}
+
+.hero-img {
+  @apply object-contain h-full w-full;
+}
+
+.hero-figcaption {
+  @apply absolute opacity-0 group-hover:opacity-100 transition-opacity duration-500 text-white text-xxs md:text-xl;
+}
+
+// about-landing.component
+.about-main-title {
+  @apply font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-300 dark:border-x-slate-600 tracking-widest text-2xl;
+}
+
+.about-info-container {
+  @apply font-comfortaa text-slate-800 grid grid-cols-2 md:grid md:grid-cols-2 md:w-3/4 md:mx-auto md:gap-5 lg:grid-cols-4 h-max lg:w-3/4;
+}
+
+.about-card-wrapper {
+  @apply w-max mx-auto mb-6 xs:w-48 sm:w-64 md:w-72 lg:w-full;
+}
+
+.about-card-img-wrapper {
+  @apply relative w-32 mx-auto lg:w-40;
+}
+
+.about-card-img {
+  @apply h-full w-full object-cover shadow-slate-500 dark:shadow-slate-800 shadow-sm-light rounded-md dark:border-opacity-60;
+}
+
+.about-img-caption {
+  @apply absolute -top-5 left-4 p-2 rounded-lg text-slate-100 text-xxs dark:bg-opacity-95;
+}
+
+.about-name {
+  @apply w-full pt-4 pb-1 border-2 mx-auto -mt-4 rounded-md dark:text-slate-100 dark:border-opacity-60 text-center;
+}
+
+.about-description {
+  @apply px-2 text-xxs xl:text-base py-3 dark:text-slate-100 border-2 mt-2 rounded-md dark:border-opacity-60 h-32 xs:h-24 lg:h-28 xl:h-36 w-36 xs:w-48 sm:w-64 md:w-72 lg:w-full;
+}
+
+.about-specialization {
+  @apply flex justify-center items-center w-90vw mx-auto border-2 border-red-400 rounded-md p-2 mb-8 md:w-2/3 md:text-base text-center;
+}
+
+.about-specialization-text {
+  @apply text-xxs font-comfortaa px-2 text-slate-800 dark:text-slate-100 xl:text-base;
+}
+
+.about-footer-tagline {
+  @apply font-comfortaa text-xs text-center text-slate-800 dark:text-slate-100 mb-10;
+}
+
+// menu-landing.component
+.menu-landing-title {
+  @apply font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-300 dark:border-x-slate-800 tracking-widest text-2xl hover:cursor-pointer;
+}
+
+.menu-content-container {
+  @apply md:w-90vw md:mx-auto md:grid md:grid-cols-2 lg:grid-cols-4 lg:gap-3 lg:w-3/4 xl:w-2/3 2xl:w-3/6;
+}
+
+.menu-category-wrapper {
+  @apply grid grid-cols-5 w-90vw mx-auto mt-4 md:w-full lg:grid-cols-1;
+}
+
+.menu-category-img {
+  @apply h-full w-full object-cover rounded-md;
+}
+
+.menu-category-info-wrapper {
+  @apply col-span-3 font-comfortaa flex flex-col justify-center px-2 text-slate-800 dark:text-slate-100;
+}
+
+.menu-landing-footer-tagline {
+  @apply font-comfortaa text-xs text-center text-slate-800 dark:text-slate-100 my-10;
+}
+
+// gallery-landing.component
+.gallery-landing-container {
+  @apply h-max font-comfortaa flex flex-col dark:text-slate-100 text-slate-800;
+}
+
+.gallery-main-title {
+  @apply font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-300 dark:border-x-slate-600 tracking-widest text-2xl;
+}
+
+.gallery-imgs-wrapper {
+  @apply w-90vw mx-auto mb-4 md:text-center md:grid md:grid-cols-2 lg:w-2/3 xl:w-max;
+}
+
+.gallery-imgs-container {
+  @apply flex items-center justify-center flex-col text-slate-800 dark:text-slate-200;
+}
+
+.gallery-landing-btn {
+  @apply border border-blue-400 text-slate-800 w-max mx-auto px-4 py-2 rounded-md text-xs dark:text-slate-100 mb-2 hover:scale-x-105;
+}
+
+.gallery-grid-wrapper {
+  @apply w-90vw grid grid-cols-2 gap-2 mx-auto xs:w-max md:grid-cols-5 md:w-90vw md:mx-auto lg:w-2/3 xl:w-max hover:cursor-pointer;
+}
+
+.gallery-img {
+  @apply rounded-md h-auto w-40 xs:h-52 xl:h-64;
+}
+
+.gallery-description-wrapper {
+  @apply text-center xs:w-90vw xs:mx-auto md:w-1/2 md:mr-auto lg:w-1/4 mb-6 md:flex md:flex-col;
+}
+
+.gallery-description-title {
+  @apply w-max mx-auto tracking-widest text-center my-4 lg:w-full text-slate-800 dark:text-slate-200;
+}
+
+.gallery-description-text {
+  @apply text-center text-sm mb-4 text-slate-800 dark:text-slate-200;
+}
+
+.gallery-landing-footer-btn {
+  @apply border-orange-400 border w-max mx-auto text-slate-800 mt-2 px-4 py-2 rounded-md text-sm hover:scale-x-105 dark:text-slate-200;
+}
+
+// info-landing.component
+.info-landing-title {
+  @apply font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-300 dark:border-x-slate-600 tracking-widest text-2xl;
+}
+
+.info-content-container {
+  @apply font-comfortaa text-xxs text-slate-800 dark:text-slate-100 grid grid-cols-2 text-center gap-4 w-90vw mx-auto xs:w-3/4 md:grid-cols-3 md:w-90vw xl:w-2/3;
+}
+
+.info-imgs-wrapper {
+  @apply container mx-auto flex h-3/4 box-border font-comfortaa text-slate-800 dark:text-slate-100 mt-4 lg:w-5/6;
+}
+
+.info-img {
+  @apply rounded-md shadow-slate-500 dark:shadow-slate-800 shadow-sm-light;
+}
+
+// footer.component
+.footer-container {
+  @apply bg-emerald-800 dark:bg-emerald-950 text-slate-100 font-comfortaa relative mt-96 h-max flex flex-col justify-center items-center;
+}
+
+.footer-links-container {
+  @apply flex justify-evenly items-center w-full text-xxs my-4 text-slate-300;
+}
+
+.footer-sns-container {
+  @apply flex justify-end gap-4 text-xxs text-slate-400 mb-2;
+}
+
+// menu-page.component
+.menu-page-title {
+  @apply font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-300 dark:border-x-slate-800 tracking-widest text-2xl hover:cursor-pointer;
+}
+
+.menu-btn-container {
+  @apply text-sm md:text-xl flex justify-evenly md:justify-center md:space-x-24 mb-16 text-slate-800 dark:text-slate-100;
+}
+
+.menu-filter-btn {
+  @apply hover:scale-125 duration-500;
+}
+
+.menu-items-container {
+  @apply w-90vw mx-auto grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 xs:gap-4;
+}
+
+.menu-item-img {
+  @apply rounded-md shadow-slate-500 dark:shadow-slate-800 shadow-sm-light dark:border-opacity-60 duration-500 hover:opacity-95;
+}
+
+.menu-item-caption {
+  @apply absolute -top-7 tracking-widest border border-dotted border-slate-300 py-2 px-8  bg-white dark:bg-bg-dark dark:text-slate-100;
+}
+
+.menu-page-home-btn {
+  @apply text-xxs md:text-base font-comfortaa text-slate-800 border p-2 rounded-md hover:bg-zinc-400 hover:dark:bg-zinc-100 hover:dark:text-slate-800 hover:text-slate-100 duration-500 dark:text-slate-100;
+}
+/************************************************
+GLOBAL STYLES
+*************************************************/
 html {
   scroll-behavior: smooth;
 }

@@ -4,32 +4,32 @@
     alt="Cafe Logo"
     class="mx-auto h-10"
   />
-  <ul class="flex justify-evenly font-extralight text-xs mt-2 lg:text-base">
-    <li class="gradient-text hover:scale-125 duration-500 py-1">
+  <ul class="nav-links-container">
+    <li class="gradient-text nav-link-item">
       <a href="#about" translate="navbar.ABOUT"></a>
     </li>
-    <li class="gradient-text hover:scale-125 duration-500 py-1">
+    <li class="gradient-text nav-link-item">
       <a href="#menu" translate="navbar.MENU"></a>
     </li>
-    <li class="gradient-text hover:scale-125 duration-500 py-1">
+    <li class="gradient-text nav-link-item">
       <a href="#home" translate="navbar.HOME"></a>
     </li>
-    <li class="gradient-text hover:scale-125 duration-500 py-1">
+    <li class="gradient-text nav-link-item">
       <a href="#gallery" translate="navbar.GALLERY"></a>
     </li>
-    <li class="gradient-text hover:scale-125 duration-500 py-1">
+    <li class="gradient-text nav-link-item">
       <a href="#info" translate="navbar.INFO"></a>
     </li>
   </ul>
 
-  <div class="my-4 flex items-center justify-around">
-    <ul class="flex gap-4 text-xs text-slate-600">
-      <li class="hover:text-slate-700 hover:scale-110 duration-100">
+  <div class="nav-sns-container">
+    <ul class="flex gap-4 text-xs">
+      <li class="nav-sns-item">
         <a href="https://www.facebook.com/CafeTriangle1/" aria-label="Facebook">
           <i class="fab fa-facebook-square"></i>
         </a>
       </li>
-      <li class="hover:text-slate-700 hover:scale-110 duration-100">
+      <li class="nav-sns-item">
         <a
           href="https://www.instagram.com/cafetriangle1/?hl=en"
           aria-label="Instagram"
@@ -37,37 +37,36 @@
           <i class="fab fa-instagram"></i>
         </a>
       </li>
-      <li class="hover:text-slate-700 hover:scale-110 duration-100">
+      <li class="nav-sns-item">
         <a href="mailto:cafetriangle1@gmail.com" aria-label="Email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
-      <li class="hover:text-slate-700 hover:scale-110 duration-100">
+      <li class="nav-sns-item">
         <a href="tel:+81076-259-5626" aria-label="Phone">
           <i class="fas fa-phone"></i>
         </a>
       </li>
     </ul>
-    <div
-      class="divide-x divide-slate-200 font-comfortaa text-xxs text-slate-800 dark:text-slate-600 dark:divide-slate-600 flex"
-    >
+
+    <div class="nav-lang-btn-container">
       <button
         type="button"
-        class="px-2 py-1 hover:scale-110"
+        class="nav-lang-btn"
         (click)="onChangeLanguage('en')"
       >
         EN
       </button>
       <button
         type="button"
-        class="px-2 py-1 hover:scale-110"
+        class="nav-lang-btn"
         (click)="onChangeLanguage('jp')"
       >
         JP
       </button>
       <button
         type="button"
-        class="px-2 py-1 hover:scale-110"
+        class="nav-lang-btn"
         (click)="onChangeLanguage('es')"
       >
         ES
@@ -75,7 +74,7 @@
     </div>
   </div>
   <button
-    class="flex text-slate-600 text-xs hover:scale-125 duration-500 mx-auto"
+    class="nav-darkmode-btn"
     (click)="onToggleDarkMode()"
     translate="navbar.DARKMODE"
   ></button>

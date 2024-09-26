@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { initFlowbite } from 'flowbite';
+import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 
@@ -10,8 +9,4 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './menu-landing.component.html',
   styleUrl: './menu-landing.component.scss',
 })
-export class MenuLandingComponent implements OnInit {
-  ngOnInit(): void {
-    initFlowbite();
-  }
-}
+export class MenuLandingComponent {}

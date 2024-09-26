@@ -1,51 +1,32 @@
 <header class="relative py-2 my-16">
-  <h1
-    class="font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-300 dark:border-x-slate-600 tracking-widest text-2xl"
-    translate="about.ABOUT_TITLE"
-  ></h1>
+  <h1 class="about-main-title" translate="about.ABOUT_TITLE"></h1>
 </header>
-<section
-  class="font-comfortaa text-slate-800 grid grid-cols-2 md:grid md:grid-cols-2 md:w-3/4 md:mx-auto md:gap-5 lg:grid-cols-4 h-max lg:w-3/4"
->
+<section class="about-info-container">
   @for (person of articles; track $index) {
-  <article class="w-max mx-auto mb-6 xs:w-48 sm:w-64 md:w-72 lg:w-full">
-    <figure class="relative w-32 mx-auto lg:w-40">
+  <article class="about-card-wrapper">
+    <figure class="about-card-img-wrapper">
       <img
         [src]="person.imageSrc"
         alt="{{ person.jobTitle }}"
-        class="h-full w-full object-cover shadow-slate-500 dark:shadow-slate-800 shadow-sm-light rounded-md dark:border-opacity-60"
+        class="about-card-img"
         [ngClass]="person.borderColor"
       />
-      <figcaption
-        class="absolute -top-5 left-4 p-2 rounded-lg text-slate-100 text-xxs dark:bg-opacity-95"
-        [ngClass]="person.backgroundColor"
-      >
+      <figcaption class="about-img-caption" [ngClass]="person.backgroundColor">
         {{ person.jobTitle | translate }}
       </figcaption>
     </figure>
-    <p
-      class="w-full pt-4 pb-1 border-2 mx-auto -mt-4 rounded-md dark:text-slate-100 dark:border-opacity-60 text-center"
-      [ngClass]="person.buttonColor"
-    >
+    <p class="about-name" [ngClass]="person.buttonColor">
       {{ person.name | translate }}
     </p>
-    <div
-      class="px-2 text-xxs xl:text-base py-3 dark:text-slate-100 border-2 mt-2 rounded-md dark:border-opacity-60 h-32 xs:h-24 lg:h-28 xl:h-36 w-36 xs:w-48 sm:w-64 md:w-72 lg:w-full"
-      [ngClass]="person.borderColor"
-    >
+    <div class="about-description" [ngClass]="person.borderColor">
       <p>{{ person.description | translate }}</p>
     </div>
   </article>
   }
 </section>
-<article
-  class="flex justify-center items-center w-90vw mx-auto border-2 border-red-400 rounded-md p-2 mb-8 md:w-2/3 md:text-base text-center"
->
+<article class="about-specialization">
   <i class="fa-solid fa-circle-info text-red-500 md:text-4xl"></i>
-  <p
-    class="text-xxs font-comfortaa px-2 text-slate-800 dark:text-slate-100 xl:text-base"
-    translate="about.SPECIALIZATION"
-  ></p>
+  <p class="about-specialization-text" translate="about.SPECIALIZATION"></p>
   <div>
     <img src="assets/pngs/japan.png" alt="Japan flag" />
     <img src="assets/pngs/mexico.png" alt="Mexico flag" />
@@ -55,7 +36,4 @@
     />
   </div>
 </article>
-<p
-  class="font-comfortaa text-xs text-center text-slate-800 dark:text-slate-100 mb-10"
-  translate="about.ABOUT_TAGLINE"
-></p>
+<p class="about-footer-tagline" translate="about.ABOUT_TAGLINE"></p>

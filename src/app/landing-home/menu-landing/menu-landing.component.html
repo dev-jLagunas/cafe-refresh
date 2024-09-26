@@ -1,29 +1,21 @@
 <section class="h-max pb-10">
   <header class="relative py-5 my-6">
-    <h1
-      class="font-comfortaa border-x px-4 pt-5 w-max mx-auto text-slate-800 dark:text-slate-100 border-x-slate-300 dark:border-x-slate-800 tracking-widest text-2xl hover:cursor-pointer"
-    >
+    <h1 class="menu-landing-title">
       <a routerLink="menu">{{ "menu-landing.MENU_TITLE" | translate }}</a>
     </h1>
   </header>
-  <section
-    class="md:w-90vw md:mx-auto md:grid md:grid-cols-2 lg:grid-cols-4 lg:gap-3 lg:w-3/4 xl:w-2/3 2xl:w-3/6"
-  >
-    <article
-      class="grid grid-cols-5 w-90vw mx-auto mt-4 md:w-full lg:grid-cols-1"
-    >
+  <section class="menu-content-container">
+    <article class="menu-category-wrapper">
       <figure class="col-span-2">
         <img
           src="assets/menu-landing/bluecheesecake.jpg"
           alt="blueberry cheesecake photo"
-          class="h-full w-full object-cover rounded-md"
+          class="menu-category-img"
         />
       </figure>
-      <div
-        class="col-span-3 font-comfortaa flex flex-col justify-center px-2 text-slate-800 dark:text-slate-100"
-      >
+      <div class="menu-category-info-wrapper">
         <p
-          class="text-xs font-bold tracking-widest mb-4 border-l-4 border-l-blue-400 pl-2 lg:text-lg lg:border-l-0 lg:border-b-2 lg:border-b-blue-400"
+          class="text-xs font-bold tracking-widest mb-4 pl-2 lg:text-lg lg:border-l-0 lg:border-b-2 border-l-blue-400 lg:border-b-blue-400 border-l-4"
         >
           {{ "menu-landing.DESSERTS" | translate }}
         </p>
@@ -38,12 +30,8 @@
         </button>
       </div>
     </article>
-    <article
-      class="grid grid-cols-5 w-90vw mx-auto mt-4 md:w-full lg:grid-cols-1"
-    >
-      <div
-        class="col-span-3 font-comfortaa flex flex-col justify-center px-2 text-slate-800 dark:text-slate-100"
-      >
+    <article class="menu-category-wrapper">
+      <div class="menu-category-info-wrapper">
         <p
           class="text-xs font-bold tracking-widest mb-4 border-r-4 border-r-green-400 pr-2 text-right lg:text-lg lg:border-r-0 lg:border-b-2 lg:border-b-green-400"
         >
@@ -63,18 +51,16 @@
         <img
           src="assets/menu-landing/chickenburrito.jpg"
           alt="Chicken burrito photo"
-          class="h-full w-full object-cover rounded-md"
+          class="menu-category-img"
         />
       </figure>
     </article>
-    <article
-      class="grid grid-cols-5 w-90vw mx-auto mt-4 md:w-full lg:grid-cols-1"
-    >
+    <article class="menu-category-wrapper">
       <figure class="col-span-2">
         <img
           src="assets/menu-landing/drins.jpg"
           alt="row of drinks"
-          class="h-full w-full object-cover rounded-md"
+          class="menu-category-img"
         />
       </figure>
       <div
@@ -96,12 +82,8 @@
         </button>
       </div>
     </article>
-    <article
-      class="grid grid-cols-5 w-90vw mx-auto mt-4 md:w-full lg:grid-cols-1"
-    >
-      <div
-        class="col-span-3 font-comfortaa flex flex-col justify-center px-2 text-slate-800 dark:text-slate-100"
-      >
+    <article class="menu-category-wrapper">
+      <div class="menu-category-info-wrapper">
         <p
           class="text-xs font-bold tracking-widest mb-4 border-r-4 border-red-400 pr-2 text-right lg:text-lg lg:border-r-0 lg:border-b-2 lg:border-b-red-400"
         >
@@ -121,157 +103,12 @@
         <img
           src="assets/menu-landing/sakuratres.jpg"
           alt="sakura tres leches cake"
-          class="h-full w-full object-cover rounded-md"
+          class="menu-category-img"
         />
       </figure>
     </article>
   </section>
 </section>
-<!-- Flowbite -->
-<div
-  id="indicators-carousel"
-  class="relative w-90vw mx-auto lg:w-3/4 2xl:w-3/6"
-  data-carousel="slide"
->
-  <!-- Carousel wrapper -->
-  <div class="relative h-56 overflow-hidden rounded-lg md:h-60">
-    <!-- Item 1 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-      <img
-        src="assets/menu-landing/bluecheesecake.jpg"
-        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-        alt="Blueberry cheesecake"
-      />
-    </div>
-    <!-- Item 2 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-      <img
-        src="assets/menu-landing/carnitas.jpg"
-        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-        alt="canitas burrito"
-      />
-    </div>
-    <!-- Item 3 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-      <img
-        src="assets/menu-landing/burritobowl.jpg"
-        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-        alt="burrito bowl"
-      />
-    </div>
-    <!-- Item 4 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-      <img
-        src="assets/menu-landing/bundtcake.jpg"
-        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-        alt="christmas bundtcake"
-      />
-    </div>
-    <!-- Item 5 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-      <img
-        src="assets/menu-landing/chocorolls.jpg"
-        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-        alt="chocolate cinnamon rolls"
-      />
-    </div>
-  </div>
-  <!-- Slider indicators -->
-  <div
-    class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2"
-  >
-    <button
-      type="button"
-      class="w-3 h-3 rounded-full"
-      aria-current="true"
-      aria-label="Slide 1"
-      data-carousel-slide-to="0"
-    ></button>
-    <button
-      type="button"
-      class="w-3 h-3 rounded-full"
-      aria-current="false"
-      aria-label="Slide 2"
-      data-carousel-slide-to="1"
-    ></button>
-    <button
-      type="button"
-      class="w-3 h-3 rounded-full"
-      aria-current="false"
-      aria-label="Slide 3"
-      data-carousel-slide-to="2"
-    ></button>
-    <button
-      type="button"
-      class="w-3 h-3 rounded-full"
-      aria-current="false"
-      aria-label="Slide 4"
-      data-carousel-slide-to="3"
-    ></button>
-    <button
-      type="button"
-      class="w-3 h-3 rounded-full"
-      aria-current="false"
-      aria-label="Slide 5"
-      data-carousel-slide-to="4"
-    ></button>
-  </div>
-  <!-- Slider controls -->
-  <button
-    type="button"
-    class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-    data-carousel-prev
-  >
-    <span
-      class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
-    >
-      <svg
-        class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-        aria-hidden="true"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 6 10"
-      >
-        <path
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M5 1 1 5l4 4"
-        />
-      </svg>
-      <span class="sr-only">Previous</span>
-    </span>
-  </button>
-  <button
-    type="button"
-    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-    data-carousel-next
-  >
-    <span
-      class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
-    >
-      <svg
-        class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-        aria-hidden="true"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 6 10"
-      >
-        <path
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="m1 9 4-4-4-4"
-        />
-      </svg>
-      <span class="sr-only">Next</span>
-    </span>
-  </button>
-</div>
-<p
-  class="font-comfortaa text-xs text-center text-slate-800 dark:text-slate-100 my-10"
->
+<p class="menu-landing-footer-tagline">
   {{ "menu-landing.MENU_TAGLINE" | translate }}
 </p>
