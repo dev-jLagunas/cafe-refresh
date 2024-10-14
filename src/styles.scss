@@ -242,6 +242,32 @@ TAILWIND UTILITY CLASSES
 .menu-page-home-btn {
   @apply text-xxs md:text-base font-comfortaa text-slate-800 border p-2 rounded-md hover:bg-zinc-400 hover:dark:bg-zinc-100 hover:dark:text-slate-800 hover:text-slate-100 duration-500 dark:text-slate-100;
 }
+
+// menu-item.component
+.menu-item-container {
+  @apply w-2/3 mx-auto h-max mt-8 xl:w-1/2;
+}
+
+.menu-item-wrapper {
+  @apply md:h-2/3 md:w-2/3 lg:h-1/2 lg:w-2/5 xl:h-1/5 md:mx-auto hover:cursor-pointer;
+}
+
+.menu-item-info-wrapper {
+  @apply absolute -bottom-8 left-0 right-0 p-4 text-center tracking-widest text-slate-800 dark:text-slate-100;
+}
+
+.menu-item-price {
+  @apply text-base bg-orange-400 text-white w-max px-4 py-1 mx-auto rounded-md mt-4;
+}
+
+// gallery-page.component
+.gallery-page-container {
+  @apply grid grid-cols-2 md:grid-cols-4 gap-2 pb-4 w-90vw mx-auto mt-5;
+}
+
+.gallery-home-btn {
+  @apply font-comfortaa text-slate-800 border p-2 rounded-md hover:bg-zinc-400 hover:dark:bg-zinc-100 hover:dark:text-slate-800 hover:text-slate-100 duration-500 dark:text-slate-100;
+}
 /************************************************
 GLOBAL STYLES
 *************************************************/

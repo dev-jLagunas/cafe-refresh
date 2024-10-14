@@ -1,23 +1,16 @@
-<article class="w-2/3 mx-auto h-max mt-8 xl:w-1/2">
-  <div
-    class="relative polaroid md:h-2/3 md:w-2/3 lg:h-1/2 lg:w-2/5 xl:h-1/5 md:mx-auto hover:cursor-pointer"
-    (click)="goBackToMenuPage()"
-  >
+<article class="menu-item-container">
+  <div class="relative polaroid menu-item-wrapper" routerLink="/menu">
     <img
       src="{{ menuProduct?.img }}"
       alt=""
       class="h-full w-full object-cover"
     />
-    <div
-      class="absolute -bottom-8 left-0 right-0 p-4 text-center tracking-widest text-slate-800 dark:text-slate-100"
-    >
+    <div class="menu-item-info-wrapper">
       <h3 class="font-comfortaa">
         {{ menuProduct?.title ?? "" | translate }}
       </h3>
 
-      <h4
-        class="text-base bg-orange-400 text-white w-max px-4 py-1 mx-auto rounded-md mt-4"
-      >
+      <h4 class="menu-item-price">
         {{ menuProduct?.price }}
       </h4>
     </div>

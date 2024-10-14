@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { MenuService } from '../../services/menu.service';
 import { MenuProducts } from '../../models/menu-product.model';
 import { TranslateModule } from '@ngx-translate/core';
@@ -7,7 +7,7 @@ import { TranslateModule } from '@ngx-translate/core';
 @Component({
   selector: 'app-menu-item',
   standalone: true,
-  imports: [TranslateModule],
+  imports: [TranslateModule, RouterLink],
   templateUrl: './menu-item.component.html',
   styleUrl: './menu-item.component.scss',
 })
@@ -16,16 +16,11 @@ export class MenuItemComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private menuService: MenuService,
-    private router: Router
+    private menuService: MenuService
   ) {}
 
   ngOnInit(): void {
-    const menuId = Number(this.route.snapshot.params['id']);
-    this.menuProduct = this.menuService.getMenuItemById(menuId);
-  }
-
-  goBackToMenuPage() {
-    this.router.navigate(['menu']);
+    const itemId = Number(this.route.snapshot.params['id']);
+    this.menuProduct = this.menuService.getMenuItemById(itemId);
   }
 }

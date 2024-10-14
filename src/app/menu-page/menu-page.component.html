@@ -6,33 +6,21 @@
     </h1>
   </header>
   <div class="menu-btn-container">
-    <button type="button" (click)="filterItems('all')" class="menu-filter-btn">
+    <button (click)="filterItems('all')" class="menu-filter-btn">
       {{ "menu-page.ALL" | translate }}
     </button>
-    <button
-      type="button"
-      (click)="filterItems('Lunch')"
-      class="menu-filter-btn"
-    >
+    <button (click)="filterItems('Lunch')" class="menu-filter-btn">
       {{ "menu-page.LUNCH" | translate }}
     </button>
-    <button
-      type="button"
-      (click)="filterItems('Dessert')"
-      class="menu-filter-btn"
-    >
+    <button (click)="filterItems('Dessert')" class="menu-filter-btn">
       {{ "menu-page.DESSERT" | translate }}
     </button>
-    <button
-      type="button"
-      (click)="filterItems('Drinks')"
-      class="menu-filter-btn"
-    >
+    <button (click)="filterItems('Drinks')" class="menu-filter-btn">
       {{ "menu-page.DRINKS" | translate }}
     </button>
   </div>
   <div class="menu-items-container">
-    @for ( item of filteredItems ; track $index) {
+    @for ( item of filteredItems ; track item.id) {
     <article class="flex flex-col mb-8 relative">
       <figure>
         <a [routerLink]="['/details', item.id]">
